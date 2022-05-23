@@ -10,37 +10,37 @@ export default function navbar (props) {
         <nav className="flex items-center space-x-10">
           <button 
             onClick={() => props.onChangePage('list')}
-            className="font-bold text-gray-400">
+            className="font-bold text-gray-400 hover:text-slate-700">
             Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('details')}
-            className="font-bold text-gray-400">
+            className="font-bold text-gray-400 hover:text-slate-700">
               Design Your Plan
           </button>
         </nav>
       </div>
       
       <div className="flex-space">
-        <div className='flex items-center space-x-8 text-sky-500 text-right'>
+        <div className='flex items-center space-x-8 text-right font-semibold'>
           <button 
             onClick={() => props.onChangePage('list')}
-            className="font-semibold">
+            className="text-sky-500 hover:text-slate-700">
             Product
           </button>
           <button 
             onClick={() => props.onChangePage('details')}
-            className="font-semibold">
+            className="text-sky-500 hover:text-slate-700">
               Solutions
           </button>
           <button 
             onClick={() => props.onChangePage('create')}
-            className="font-semibold">
+            className="text-sky-500 hover:text-slate-700">
               About
           </button>
           <button 
             onClick={() => props.onChangePage('create')}
-            className="font-semibold">
+            className="text-sky-500 hover:text-slate-700">
               Careers
           </button>
         </div>

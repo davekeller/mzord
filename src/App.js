@@ -20,7 +20,7 @@ export default function App() {
   }
 
   return (
-    <div className='relative pt-16 w-screen h-full pb-40 bg-slate-100 text-slate-800 hover:ease-in-out antialiased'>
+    <div className='relative pt-14 w-screen h-full pb-40 bg-slate-100 text-slate-800 hover:ease-in-out antialiased'>
       <Navbar onChangePage={setPage}/>
       
       {pageComponent}
