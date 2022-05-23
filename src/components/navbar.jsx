@@ -1,47 +1,59 @@
 
 export default function navbar (props) {
   return (
-    <div className='fixed w-full top-0 px-6 py-4 flex justify-between items-center bg-gradient-to-l from-blue-900 to-slate-800 z-20'>
+    <div className='fixed w-full top-0 px-6 py-3 flex justify-between items-center bg-white shadow-sm z-20'>
 
-      <div className="flex space-x-2 items-center text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-        </svg>
-        
-        <p className="font-bold text-lg">
-          CareerPath
-        </p>
-        <p className="text-gray-400 text-sm">
-          by QuotaPath
-        </p>
+      <div className="flex items-center space-x-10">
+        <svg width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fillRule="evenodd" clipRule="evenodd" d="M16.518 14.03a2.576 2.576 0 1 1-5.153 0 2.576 2.576 0 0 1 5.153 0" fill="#00BBF0"/><path fillRule="evenodd" clipRule="evenodd" d="m23.791 27.985-5.75-1.805-.106.035a12.78 12.78 0 0 1-3.98.632c-7.063 0-12.788-5.725-12.788-12.788 0-3.412 1.336-6.512 3.514-8.805l3.11 3.689a8.01 8.01 0 0 0 10.167 12.056l3.108 3.69-.022.015.017-.006 2.73 3.287ZM4.092.076l5.75 1.806a12.776 12.776 0 0 1 4.087-.667c7.062 0 12.787 5.725 12.787 12.788 0 3.412-1.336 6.512-3.514 8.805l-3.11-3.689A8.01 8.01 0 0 0 9.925 7.063l-3.107-3.69.021-.015-.017.006L4.092.076Z" fill="#00204A"/>
+        </svg>            
+        <nav className="flex items-center space-x-10">
+          <button 
+            onClick={() => props.onChangePage('list')}
+            className="font-bold text-gray-400">
+            Discover Comp Plans
+          </button>
+          <button 
+            onClick={() => props.onChangePage('details')}
+            className="font-bold text-gray-400">
+              Design Your Plan
+          </button>
+        </nav>
+      </div>
+      
+      <div className="flex-space">
+        <div className='flex items-center space-x-8 text-sky-500 text-right'>
+          <button 
+            onClick={() => props.onChangePage('list')}
+            className="font-semibold">
+            Product
+          </button>
+          <button 
+            onClick={() => props.onChangePage('details')}
+            className="font-semibold">
+              Solutions
+          </button>
+          <button 
+            onClick={() => props.onChangePage('create')}
+            className="font-semibold">
+              About
+          </button>
+          <button 
+            onClick={() => props.onChangePage('create')}
+            className="font-semibold">
+              Careers
+          </button>
+        </div>
+        <div className='flex items-center space-x-4 text-sky-500 text-right'>
+          <button className='text-sky-700 px-4 py-1 rounded font-bold bg-none hover:bg-teal-500 hover:text-white'>
+            log in
+          </button>
+          <button className='text-sky-700 px-6 py-1 rounded font-bold border-2 border-sky-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
+            Sign Up
+          </button>
+        </div>
       </div>
 
-      <div className='flex items-center space-x-6 text-blue-400 text-sm text-right'>
-        <button 
-          onClick={() => props.onChangePage('list')}
-          className="font-semibold">
-          List
-        </button>
-        <button 
-          onClick={() => props.onChangePage('details')}
-          className="font-semibold">
-            Details
-        </button>
-        <button 
-          onClick={() => props.onChangePage('create')}
-          className="font-semibold">
-            Create
-        </button>
-        
-        <button className='text-white px-4 py-1.5 rounded font-bold bg-none hover:bg-sky-700'>
-          log in
-        </button>
-        <button className='text-white px-6 py-1.5 rounded font-bold border-2 border-white border-opacity-20 bg-none hover:bg-teal-200 hover:text-blue-800'>
-          Post a Job
-        </button>
-      </div>
     </div>
   )
 }

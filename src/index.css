@@ -41,6 +41,12 @@ code {
     @apply items-center;
     @apply justify-between;
   }
+
+  .flex-space {
+    @apply flex;
+    @apply items-center;
+    @apply space-x-6;
+  }
   
   .flex-center {
     @apply flex;
