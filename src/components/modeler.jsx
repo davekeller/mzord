@@ -1,7 +1,7 @@
 
 export default function Modeler (props) {
   return (
-    <div className='p-6 bg-white shadow-lg shadow-opacity-20 rounded-lg'>
+    <div className='p-6 bg-white shadow-lg shadow-opacity-20 rounded-b-lg border-t-4 border-teal-400'>
       <div className="flex justify-between">
         <div>
           <h1 className='text-sm font-bold text-teal-700 uppercase'>

@@ -6,13 +6,13 @@ export default function structureBuilder() {
     <div>
       <div className="grid grid-cols-4 gap-6 p-6 pb-8 card">
         <div className='col-span-3'>
-          <h1 className='text-sm font-bold text-teal-700 uppercase'>
+          <h1 className='text-sm font-semibold text-slate-500'>
             Plan Forecast
           </h1>
-          <p className='p text-slate-600 text-xs'>
-            This is the dopest shit you'll prob see this week ngl
+          <img className='mt-2 border-2 border-slate-300 rounded-lg col-span-3' src="/assets/graph.png" />
+          <p className='mt-2 text-slate-500 text-xs italic'>
+            Drag the slider to see your earnings per attainment.
           </p>
-          <img className='mt-6 border-2 border-slate-300 rounded-lg col-span-3' src="/assets/graph.png" />
         </div>
         <div className="col-span-1">
           <div>

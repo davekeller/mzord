@@ -1,4 +1,5 @@
 import Sidebar from '../components/sidebar.jsx';
+import Subnav from '../components/subnav.jsx';
 import Title from '../components/title.jsx';
 import StructureBuilder from '../components/structureBuilder.jsx';
 import Modeler from '../components/modeler.jsx';
@@ -9,6 +10,7 @@ export default function Plan() {
       <div className='fixed pr-32'>
         <Sidebar />
       </div>
+      <Subnav />
 
       <div className='pl-32'>
         <div className='grid grid-cols-3 px-8 gap-8'>
