@@ -7,23 +7,23 @@ export default function Modeler (props) {
           <h1 className='text-sm font-bold text-teal-700 uppercase'>
             Modeler
           </h1>
-          <p className='p text-slate-600 text-xs'>
-            Play around with numbers.
+          <p className='p text-slate-500 text-xs'>
+            Play around with numbers here.
           </p>
         </div>
-        <div className="leading-none text-right text-teal-700">
-          <p className="text-xs">
-            This plan is a great
-          </p>
+        <div className="text-right text-slate-700">
           <p className="font-bold">
             Quarterly Incentivizer
+          </p>
+          <p className="p text-slate-500 text-xs">
+            This plan is a great plan for you.
           </p>
         </div>
       </div>
 
       {/* modeler inputs */}
       <form className="mt-5 space-y-4">
-        <div className="py-6 -mx-6 px-6 bg-blue-600 space-y-4" >
+        <div className="py-6 -mx-6 px-6 bg-slate-700 space-y-4" >
           <div className="relative">
             <label className="flex-between text-white border-white">
               <p className="label">

@@ -3,9 +3,9 @@ export default function structure() {
   return (
     <div className='card'>
       <div>
-        <div className="py-3 px-4 bg-slate-200">
+        <div className="py-3 px-4 bg-slate-400 rounded-t-md text-white">
           <p className="font-bold">
-            <span className="font-normal pr-2 text-slate-500">Path:</span> 
+            <span className="font-normal pr-2">Path:</span> 
             Monthly Quota
           </p>
         </div>
