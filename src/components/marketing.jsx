@@ -37,10 +37,7 @@ export default function personas (props) {
           </div>
           <img className="absolute -left-2/3 -top-6 w-96 shadow-2xl overflow-clip" src="/assets/hero.png" alt="hero img" />
         </div>
-
       </div>
-
-      
     </div>
   )
 }

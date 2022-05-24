@@ -9,12 +9,12 @@ export default function navbar (props) {
         </svg>            
         <nav className="flex items-center space-x-10">
           <button 
-            onClick={() => props.onChangePage('list')}
+            onClick={() => props.onChangePage('planList')}
             className="font-bold text-gray-400 hover:text-slate-700">
             Discover Comp Plans
           </button>
           <button 
-            onClick={() => props.onChangePage('details')}
+            onClick={() => props.onChangePage('plan')}
             className="font-bold text-gray-400 hover:text-slate-700">
               Design Your Plan
           </button>
@@ -24,12 +24,12 @@ export default function navbar (props) {
       <div className="flex-space">
         <div className='flex items-center space-x-8 text-right'>
           <button 
-            onClick={() => props.onChangePage('list')}
+            onClick={() => props.onChangePage('plan')}
             className="font-semibold text-sm text-sky-500 hover:text-slate-700">
             Product
           </button>
           <button 
-            onClick={() => props.onChangePage('details')}
+            onClick={() => props.onChangePage('plan')}
             className="font-semibold text-sm text-sky-500 hover:text-slate-700">
               Solutions
           </button>
