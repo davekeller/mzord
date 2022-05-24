@@ -1,108 +1,115 @@
 
-export default function JobPost (props) {
+export default function Modeler (props) {
   return (
-    <div>
-      
-      {/* post */}
-      <div className="p-8 bg-white rounded shadow-md border-gray-300 grid grid-cols-6 gap-8">
-        <div className="-ml-8 -my-8 py-8 pl-8 border-l-4 border-yellow-400">
-          <img src="/assets/recordedfuture.png" alt="logo"/>
-          <p className="mt-2 text-gray-400 text-xs">
-            London, United Kingdom
+    <div className='p-6 bg-white shadow-lg shadow-opacity-20 rounded-lg'>
+      <div className="flex justify-between">
+        <div>
+          <h1 className='text-sm font-bold text-teal-700 uppercase'>
+            Modeler
+          </h1>
+          <p className='p text-slate-600 text-xs'>
+            Play around with numbers.
           </p>
-          <ul className="mt-6 text-xs text-bold space-y-2 text-slate-400">
-            <li className="flex items-center space-x-2">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <p className="text-gray-600">
-                Software Sales
+        </div>
+        <div className="leading-none text-right text-teal-700">
+          <p className="text-xs">
+            This plan is a great
+          </p>
+          <p className="font-bold">
+            Quarterly Incentivizer
+          </p>
+        </div>
+      </div>
+
+      {/* modeler inputs */}
+      <form className="mt-5 space-y-4">
+        <div className="py-6 -mx-6 px-6 bg-blue-600 space-y-4" >
+          <div className="relative">
+            <label className="flex-between text-white border-white">
+              <p className="label">
+                On-Target Earnings (OTE)
               </p>
-            </li>
-            <li className="flex items-center space-x-2">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <a className="text-xs underline font-normal italic opacity-50">info</a>
+            </label>
+            <div className="relative">
+              <input type="text" className="input border-white pl-10" name="onTarget" placeholder="140,000" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <p className="text-gray-600">
-                5-30M Revenue
+            </div>
+          </div>
+          <div className="relative">
+            <label className="flex-between text-white border-white">
+              <p className="label">
+                Base:Variable Pay Mix
               </p>
-            </li>
-            <li className="flex items-center space-x-2">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-              <p className="text-gray-600">
-                50-100 Employees
-              </p>
-            </li>
-          </ul>
-        </div>
-        
-        {/* description */}
-        <div className="col-span-4">
-          <h2 className="text-xl font-bold">
-            Account Executive, Fraud Solutions
-          </h2>
-          
-          <p className="mt-3 text-sm text-gray-700">
-            As the Account Executive for Fraud Solutions, you will develop an assigned UK territory/Set of accounts, drive engagement, and build relationships with new prospects, resulting in bookings and revenue attainment in excess of your goals.
-          </p>
-          <div className="mt-4 grid grid-cols-2 gap-12 text-gray-500">
-            <ul className="mt-2 pl-4 text-xs font-medium space-y-3 list-disc">
-              <li className="list-none uppercase font-semibold -ml-4 text-slate-700">
-                EXPERIENCE
-              </li>
-              <li>
-                5+ years of closing/quota carrying experience in the software industry, preferably within Cyber Security
-              </li>
-              <li>
-                Track record of success consistently exceeding overall goals in Security technology sales
-              </li>
-           
-            </ul>
-            <ul className="mt-2 pl-4 text-xs font-medium space-y-3 list-disc">
-              <li className="list-none uppercase font-semibold -ml-4 text-slate-700">
-                JOB REQUIREMENTS
-              </li>
-              <li>
-                Develop and manage New Business Sales into UK based Commercial & Enterprise prospects
-              </li>
-              <li>
-                Identify, manage, and close multiple opportunities and projects at the same time
-              </li>
-            </ul>
+              <a className="info">info</a>
+            </label>
+            <div className="relative">
+              <input type="text" className="input border-white pl-10" name="onTarget" placeholder="50:50" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+              </svg>            
+            </div>
           </div>
         </div>
 
-        <div className="border-l border-gray-200 -m-8 p-8">
-          <button onClick={() => props.onChangePage('details')} className="font-semibold w-full text-center px-4 py-1.5 bg-slate-400 text-white text-xs rounded">
-            View on QP &rarr;
-          </button>
-          <ul className="mt-2 grid grid-cols-2 gap-4">
-            <li>
-              <b className="text-xs font-semibold text-gray-500 tracking-normal">On-Time Earnings:</b>
-              <p className="text-sm font-bold">$140,000/yr</p>
-            </li>
-            <li className="text-right">
-              <b className="text-xs font-semibold text-gray-500 tracking-normal">Base:Variable</b>
-              <p className="text-sm font-bold">50:50</p>
-            </li>
-            <li>
-              <b className="text-xs font-semibold text-gray-500 tracking-normal">Annualized Quota:</b>
-              <p className="text-sm font-bold">$700,000</p>
-            </li>
-            <li className="text-right">
-            <b className="text-xs font-semibold text-gray-500 tracking-normal">Monthly Deals</b>
-              <p className="text-sm font-bold">5x</p>
-            </li>
-
-          </ul>
-          <div className="mt-4">
-            <img src="/assets/graph.png" alt="graph" className="border-2 border-gray-300 rounded"/>
+        <div className="relative">
+          <label className="flex-between">
+            <p className="label">
+              Avg Sales Price (ASP/ACV)
+            </p>
+            <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
+          </label>
+          <div className="relative">
+            <input type="text" className="input pl-10" name="onTarget" placeholder="20,000" />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
           </div>
         </div>
 
-      </div>
+        <div className="relative">
+          <label className="flex-between">
+            <p className="label">
+              Quota:OTE Ratio
+            </p>
+            <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
+          </label>
+          <div className="relative">
+            <input type="text" className="input pl-10" name="onTarget" placeholder="5x" />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+        </div>
+
+        <div className="relative">
+          <label className="flex-between">
+            <p className="label">
+              Deals Per Period
+            </p>
+            <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
+          </label>
+          <div className="relative">
+            <input type="text" className="input pl-10" name="onTarget" placeholder="5x" value="5x" />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+        </div>
+
+        <div>
+          <label className="label">On-Target Earnings (OTE)</label>
+          <input type="text" className="input" name="ote" placeholder="poopy" />
+        </div>
+
+        <div>
+          <label className="label">On-Target Earnings (OTE)</label>
+          <input type="text" className="input" name="ote" placeholder="poopy" />
+        </div>
+
+      </form>
     </div>
   )
 }
