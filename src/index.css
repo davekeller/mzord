@@ -80,6 +80,7 @@ code {
   }
 
   .info {
+    @apply px-2;
     @apply text-xs;
     @apply underline;
     @apply font-normal;

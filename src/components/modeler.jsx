@@ -4,7 +4,7 @@ export default function Modeler (props) {
     <div className='card rounded-lg overflow-hidden'>
       <div className="px-6 py-3 flex-between bg-slate-800">
         <h1 className="text-sm font-semibold text-slate-400">
-          Modeler
+          Plan Modeling
         </h1>
 
       </div>
@@ -14,9 +14,13 @@ export default function Modeler (props) {
           <div className="relative">
             <label className="flex-between text-white border-white">
               <p className="label">
-                On-Target Earnings (OTE)
+                OTE 
+                <span>
+                  <a className="info">
+                    On-Target Earnings
+                  </a>
+                </span>
               </p>
-              <a className="text-xs underline font-normal italic opacity-50">info</a>
             </label>
             <div className="relative">
               <input type="text" className="input border-white pl-10" name="onTarget" placeholder="140,000" />
