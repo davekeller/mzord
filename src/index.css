@@ -63,7 +63,7 @@ code {
     @apply font-bold;
     @apply px-6;
     @apply py-1.5;
-    @apply rounded-sm;
+    @apply rounded-md;
     @apply shadow-sm;
     @apply hover:shadow-xl;
     @apply hover:bg-sky-600;

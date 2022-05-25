@@ -19,7 +19,7 @@ export default function Plan() {
             <Title />
             <StructureBuilder />
           </div>
-          <div className='col-span-1 space-y-6'>
+          <div className='col-span-1 space-y-8'>
             <CTA />
             <Modeler />
           </div>

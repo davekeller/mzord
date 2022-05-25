@@ -1,7 +1,7 @@
 
 export default function Modeler (props) {
   return (
-    <div className='card rounded-lg overflow-hidden'>
+    <div className='bg-white card rounded-lg overflow-hidden'>
       <div className="px-6 py-3 flex-between bg-slate-800">
         <h1 className="text-sm font-semibold text-slate-400">
           Plan Modeling

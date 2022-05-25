@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import Navbar from './components/navbar.jsx';
+import NavAuth from './components/navAuth.jsx';
 import Footer from './components/footer.jsx';
 import Home from './views/home.jsx';
 import Plan from './views/plan.jsx';
@@ -20,7 +21,7 @@ export default function App() {
   }
 
   return (
-    <div className='relative pt-14 w-screen h-full pb-40 bg-slate-100 text-slate-800 hover:ease-in-out antialiased'>
+    <div className='relative pt-14 w-screen h-screen bg-slate-100 text-slate-800 hover:ease-in-out antialiased'>
       <Navbar onChangePage={setPage}/>
       
       {pageComponent}

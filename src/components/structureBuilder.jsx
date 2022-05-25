@@ -50,9 +50,11 @@ export default function structureBuilder() {
       <div className='mt-8 col-span-full'>
         {/* header */}
         <div className="flex space-x-4 items-center">
-          <h2 className="text-xl font-bold">Paths</h2>
+          <h2 className="text-lg text-slate-600 font-bold">Paths</h2>
           <p className="text-teal-400 font-semibold text-sm">
-            <a>+ add path</a>
+            <button class="btn bg-white text-teal-600 px-4 border-none hover:text-white">
+              + add path
+            </button>            
           </p>
         </div>
         <div className="mt-4 space-y-6">

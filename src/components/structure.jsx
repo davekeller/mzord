@@ -4,7 +4,7 @@ export default function structure() {
       {/* header */}
       <div className="flex-between">
         <h2 className="pb border-b-2 border-slate-100 text-xl font-bold">Paths</h2>
-        <button className="btn bg-white text-sky-500">
+        <button className="text-teal-600 font-bold">
           + add path
         </button>
       </div>

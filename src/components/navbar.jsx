@@ -1,5 +1,5 @@
 
-export default function navbar (props) {
+export default function Navbar (props) {
   return (
     <div className='fixed w-full top-0 px-6 flex justify-between items-center bg-white shadow-sm z-20'>
 

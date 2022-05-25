@@ -39,6 +39,17 @@ export default function personas (props) {
           <img className="absolute -left-2/3 -top-6 w-96 shadow-2xl overflow-clip" src="/assets/hero.png" alt="hero img" />
         </div>
       </div>
+
+      <div className="mt-24 text-center">
+        <h1 className="text-4xl font-bold text-slate-400">
+         Ye shall do this.
+        </h1>
+        <button 
+          onClick={() => props.onChangePage('plan')}
+          className="mt-4 btn bg-sky-500 border-sky-500">
+            ok ok gosh &rarr;
+        </button>
+      </div>
     </div>
   )
 }
