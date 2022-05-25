@@ -1,5 +1,5 @@
 
-export default function hero (props) {
+export default function Hero (props) {
   return (
     <div className="relative p-28 bg-gradient-to-br from-slate-200 to-white text-center overflow-hidden">
       <div className="relative z-10 text-center w-1/2 mx-auto">

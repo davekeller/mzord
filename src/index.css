@@ -53,7 +53,6 @@ code {
     @apply items-center;
     @apply justify-center;
     @apply text-center;
-    @apply flex-col;
   }
 
   .btn {
@@ -61,12 +60,14 @@ code {
     @apply border-2;
     @apply border-teal-500;
     @apply text-white;
-    @apply hover:shadow-xl;
-    @apply hover:opacity-70;
     @apply font-bold;
     @apply px-6;
     @apply py-1.5;
     @apply rounded-sm;
+    @apply shadow-sm;
+    @apply hover:shadow-xl;
+    @apply hover:bg-sky-600;
+    @apply hover:border-sky-600;
   }
 
   p {

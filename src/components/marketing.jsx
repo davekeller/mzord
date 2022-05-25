@@ -4,6 +4,7 @@ export default function personas (props) {
     <div className="py-24 bg-slate-200 overflow-hidden">
       <div className="relative w-2/3 mx-auto">
         <div className="w-2/3">
+          
           <h2 className="font-bold text-sm uppercase text-sky-500">Sales Compensation</h2>
           <h1 className="mt-2 font-semibold text-3xl">
             Operating lean shouldn’t mean less revenue

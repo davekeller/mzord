@@ -4,11 +4,14 @@ export default function navbar (props) {
     <div className='fixed w-full top-0 px-6 flex justify-between items-center bg-white shadow-sm z-20'>
 
       <div className="flex items-center">
-        <svg width="26" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fillRule="evenodd" clipRule="evenodd" d="M15.518 14.03a2.576 2.576 0 1 1-5.153 0 2.576 2.576 0 0 1 5.153 0" fill="#00BBF0"/><path fillRule="evenodd" clipRule="evenodd" d="m22.791 27.985-5.75-1.805-.106.035a12.78 12.78 0 0 1-3.98.632C5.892 26.847.167 21.122.167 14.06c0-3.412 1.336-6.512 3.514-8.805l3.11 3.689a8.01 8.01 0 0 0 10.167 12.056l3.108 3.69-.022.015.017-.006 2.73 3.287ZM3.092.076l5.75 1.806a12.776 12.776 0 0 1 4.087-.667c7.062 0 12.787 5.725 12.787 12.788 0 3.412-1.336 6.512-3.514 8.805l-3.11-3.689A8.01 8.01 0 0 0 8.925 7.063l-3.107-3.69.021-.015-.017.006L3.092.076Z" fill="currentColor"/>
-        </svg>
+        <a href="/" className="px-2">
+          <svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M15.338 13.029a2.392 2.392 0 1 1-4.785 0 2.392 2.392 0 0 1 4.785 0" fill="#00BBF0"/>
+            <path fillRule="evenodd" clipRule="evenodd" d="m22.092 25.986-5.339-1.676-.099.033c-1.163.38-2.405.586-3.696.586-6.558 0-11.875-5.316-11.875-11.874 0-3.169 1.241-6.047 3.263-8.177l2.889 3.426a7.438 7.438 0 0 0 9.441 11.194l2.885 3.428-.02.013.015-.006 2.536 3.053ZM3.8.071l5.338 1.676a11.864 11.864 0 0 1 3.795-.62c6.558 0 11.875 5.317 11.875 11.876 0 3.168-1.24 6.047-3.263 8.176l-2.888-3.425A7.438 7.438 0 0 0 9.216 6.559L6.33 3.131l.02-.013-.016.006L3.8.07Z" fill="#00204A"/>
+          </svg>
+        </a>
       
-        <nav className="pl-24 flex items-center space-x-10">
+        <nav className="pl-16 flex items-center space-x-10">
           <button 
             onClick={() => props.onChangePage('planList')}
             className="py-4 font-bold text-gray-400 hover:text-slate-700">
@@ -49,7 +52,7 @@ export default function navbar (props) {
           <button className='text-sky-700 px-4 py-1 rounded font-bold bg-none hover:bg-teal-500 hover:text-white'>
             log in
           </button>
-          <button className='text-sky-700 px-6 py-1 rounded font-bold border-2 border-sky-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
+          <button className='text-sky-700 px-4 py-1 rounded-md font-bold border-2 border-sky-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
             Sign Up
           </button>
         </div>

@@ -1,29 +1,16 @@
 
 export default function Modeler (props) {
   return (
-    <div className='p-6 bg-white shadow-lg shadow-opacity-20 rounded-b-lg border-t-4 border-teal-400'>
-      <div className="flex justify-between">
-        <div>
-          <h1 className='text-sm font-bold text-teal-700 uppercase'>
-            Modeler
-          </h1>
-          <p className='p text-slate-500 text-xs'>
-            Play around with numbers here.
-          </p>
-        </div>
-        <div className="text-right text-slate-700">
-          <p className="font-bold">
-            Quarterly Incentivizer
-          </p>
-          <p className="p text-slate-500 text-xs">
-            This plan is a great plan for you.
-          </p>
-        </div>
-      </div>
+    <div className='card rounded-lg overflow-hidden'>
+      <div className="px-6 py-3 flex-between bg-slate-800">
+        <h1 className="text-sm font-semibold text-slate-400">
+          Modeler
+        </h1>
 
+      </div>
       {/* modeler inputs */}
-      <form className="mt-5 space-y-4">
-        <div className="py-6 -mx-6 px-6 bg-slate-700 space-y-4" >
+      <form className="-mx-6 px-6 space-y-4">
+        <div className="px-6 pt-4 pb-8 bg-slate-700 space-y-4" >
           <div className="relative">
             <label className="flex-between text-white border-white">
               <p className="label">
@@ -54,60 +41,63 @@ export default function Modeler (props) {
           </div>
         </div>
 
-        <div className="relative">
-          <label className="flex-between">
-            <p className="label">
-              Avg Sales Price (ASP/ACV)
-            </p>
-            <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
-          </label>
+        <div className="relative p-6 space-y-4">
           <div className="relative">
-            <input type="text" className="input pl-10" name="onTarget" placeholder="20,000" />
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
+            <label className="flex-between">
+              <p className="label">
+                Avg Sales Price (ASP/ACV)
+              </p>
+              <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
+            </label>
+            <div className="relative">
+              <input type="text" className="input pl-10" name="onTarget" placeholder="20,000" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+          </div>
+
+          <div className="relative">
+            <label className="flex-between">
+              <p className="label">
+                Quota:OTE Ratio
+              </p>
+              <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
+            </label>
+            <div className="relative">
+              <input type="text" className="input pl-10" name="onTarget" placeholder="5x" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+          </div>
+
+          <div className="relative">
+            <label className="flex-between">
+              <p className="label">
+                Deals Per Period
+              </p>
+              <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
+            </label>
+            <div className="relative">
+              <input type="text" className="input pl-10" name="onTarget" placeholder="5x" value="5x" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+          </div>
+
+          <div>
+            <label className="label">On-Target Earnings (OTE)</label>
+            <input type="text" className="input" name="ote" placeholder="poopy" />
+          </div>
+
+          <div>
+            <label className="label">On-Target Earnings (OTE)</label>
+            <input type="text" className="input" name="ote" placeholder="poopy" />
           </div>
         </div>
 
-        <div className="relative">
-          <label className="flex-between">
-            <p className="label">
-              Quota:OTE Ratio
-            </p>
-            <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
-          </label>
-          <div className="relative">
-            <input type="text" className="input pl-10" name="onTarget" placeholder="5x" />
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-        </div>
-
-        <div className="relative">
-          <label className="flex-between">
-            <p className="label">
-              Deals Per Period
-            </p>
-            <a className="text-xs underline font-normal italic hover:opacity-50">info</a>
-          </label>
-          <div className="relative">
-            <input type="text" className="input pl-10" name="onTarget" placeholder="5x" value="5x" />
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-        </div>
-
-        <div>
-          <label className="label">On-Target Earnings (OTE)</label>
-          <input type="text" className="input" name="ote" placeholder="poopy" />
-        </div>
-
-        <div>
-          <label className="label">On-Target Earnings (OTE)</label>
-          <input type="text" className="input" name="ote" placeholder="poopy" />
-        </div>
 
       </form>
     </div>
