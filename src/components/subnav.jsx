@@ -1,7 +1,7 @@
 
 export default function subnav (props) {
   return (
-    <div className="pt-4 pb-3 pl-32 pr-6 flex-between bg-slate-500">
+    <div className="pt-4 pb-3 pl-28 pr-6 flex-between bg-slate-500">
       <ul className='flex items-center space-x-2 text-sm font-medium text-slate-300'>
         <li>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

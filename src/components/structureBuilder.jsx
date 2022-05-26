@@ -10,7 +10,7 @@ export default function structureBuilder() {
             Plan Forecast
           </h1>
           <img className='mt-2 border-2 border-slate-300 rounded-md col-span-3' src="/assets/graph.png" />
-          <p className='mt-2 text-slate-500 text-xs italic'>
+          <p className='mt-3 text-slate-500 text-xs italic'>
             Drag the slider to see your earnings per attainment.
           </p>
         </div>

@@ -16,12 +16,12 @@ export default function App() {
   if (page === 'plan') {
     pageComponent = (<Plan />);
   }
-  if (page === 'create') {
+  if (page === 'planList') {
     pageComponent = (<PlanList />);
   }
 
   return (
-    <div className='relative pt-14 w-screen h-screen bg-slate-100 text-slate-800 hover:ease-in-out antialiased'>
+    <div className='relative py-14 w-screen h-screen bg-slate-100 text-slate-800 hover:ease-in-out antialiased'>
       <Navbar onChangePage={setPage}/>
       
       {pageComponent}

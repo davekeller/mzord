@@ -8,9 +8,7 @@ import Modeler from '../components/modeler.jsx';
 export default function Plan() {
   return (
     <div className='relative w-screen h-full pb-24'>
-      <div className='fixed left-0'>
-        <Sidebar />
-      </div>
+      <Sidebar />
       <Subnav />
 
       <div className='pl-20 mt-12'>

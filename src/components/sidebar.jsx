@@ -1,7 +1,7 @@
 
 export default function sidebar (props) {
   return (
-    <div className='relative w-20 px-6 bg-slate-800 h-screen'>
+    <div className='fixed left-0 w-20 px-6 bg-slate-800 h-screen'>
       <div className='py-8 flex-center flex-col space-y-6 text-center text-slate-500 text-sm font-semibold'>
         
         {/* top */}
