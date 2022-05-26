@@ -8,12 +8,12 @@ import Modeler from '../components/modeler.jsx';
 export default function Plan() {
   return (
     <div className='relative w-screen h-full pb-24'>
-      <div className='fixed left-0 w-24'>
+      <div className='fixed left-0'>
         <Sidebar />
       </div>
       <Subnav />
 
-      <div className='pl-24 mt-12'>
+      <div className='pl-20 mt-12'>
         <div className='grid grid-cols-3 px-8 gap-8'>
           <div className='col-span-2 space-y-6'>
             <Title />

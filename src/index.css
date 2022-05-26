@@ -91,7 +91,7 @@ code {
   .card {
     @apply bg-white;
     @apply shadow-lg;
-    @apply shadow-gray-700/5;
+    @apply shadow-gray-800/5;
     @apply rounded-lg;
   }
 }
