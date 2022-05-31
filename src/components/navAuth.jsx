@@ -29,30 +29,30 @@ export default function navAuth (props) {
         <div className='flex items-center space-x-8 text-right'>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="font-semibold text-sm text-sky-500 hover:text-slate-700">
+            className="font-semibold text-sm text-blue-500 hover:text-slate-700">
             Product
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="font-semibold text-sm text-sky-500 hover:text-slate-700">
+            className="font-semibold text-sm text-blue-500 hover:text-slate-700">
               Solutions
           </button>
           <button 
             onClick={() => props.onChangePage('create')}
-            className="font-semibold text-sm text-sky-500 hover:text-slate-700">
+            className="font-semibold text-sm text-blue-500 hover:text-slate-700">
               About
           </button>
           <button 
             onClick={() => props.onChangePage('create')}
-            className="font-semibold text-sm text-sky-500 hover:text-slate-700">
+            className="font-semibold text-sm text-blue-500 hover:text-slate-700">
               Careers
           </button>
         </div>
-        <div className='flex items-center space-x-4 text-sky-500 text-right'>
-          <button className='text-sky-700 px-4 py-1 rounded font-bold bg-none hover:bg-teal-500 hover:text-white'>
+        <div className='flex items-center space-x-4 text-blue-500 text-right'>
+          <button className='text-blue-700 px-4 py-1 rounded font-bold bg-none hover:bg-teal-500 hover:text-white'>
             log in
           </button>
-          <button className='text-sky-700 px-4 py-1 rounded-md font-bold border-2 border-sky-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
+          <button className='text-blue-700 px-4 py-1 rounded-md font-bold border-2 border-blue-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
             Sign Up
           </button>
         </div>

@@ -5,7 +5,7 @@ export default function personas (props) {
       <div className="relative w-2/3 mx-auto">
         <div className="w-2/3">
           
-          <h2 className="font-bold text-sm uppercase text-sky-500">Sales Compensation</h2>
+          <h2 className="font-bold text-sm uppercase text-blue-500">Sales Compensation</h2>
           <h1 className="mt-2 font-semibold text-3xl">
             Operating lean shouldn’t mean less revenue
           </h1>
@@ -46,7 +46,7 @@ export default function personas (props) {
         </h1>
         <button 
           onClick={() => props.onChangePage('plan')}
-          className="mt-4 btn bg-sky-500 border-sky-500">
+          className="mt-4 btn bg-blue-500 border-blue-500">
             ok ok gosh &rarr;
         </button>
       </div>

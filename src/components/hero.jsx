@@ -3,7 +3,7 @@ export default function Hero (props) {
   return (
     <div className="relative p-28 bg-gradient-to-br from-slate-200 to-white text-center overflow-hidden">
       <div className="relative z-10 text-center w-1/2 mx-auto">
-        <h1 className="text-5xl font-bold text-sky-600">
+        <h1 className="text-5xl font-bold text-blue-600">
           Right Commission. <span className="text-slate-700">Right Now.</span>
         </h1>
         <p className="p-6 text-sm text-gray-500 leading-loose"> 

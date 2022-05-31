@@ -11,7 +11,7 @@ export default function structure() {
         </div>
 
         {/* quota details */}
-        <div className="p-4 grid grid-cols-3">
+        <div className="p-4 pb-6 grid grid-cols-3">
           <div className="grid col-span-2 grid-cols-2 gap-6">
             <ul className="space-y-3">
               <li className="col-span-1">
@@ -43,7 +43,7 @@ export default function structure() {
               </li>
             </ul>
 
-            <ul className="space-y-3 pr-12">
+            <ul className="space-y-2 pr-12">
               <li className="col-span-1">
                 <h2 className="text-xs font-bold text-slate-400">Earnings Tiers</h2>
               </li>
@@ -51,7 +51,7 @@ export default function structure() {
                 <p className="font-medium text-slate-600">
                   0-50%
                 </p>
-                <p className="font-extrabold">
+                <p className="font-bold">
                   0%
                 </p>
               </li>
@@ -59,7 +59,7 @@ export default function structure() {
                 <p className="font-medium text-slate-600">
                   50-100%
                 </p>
-                <p className="font-extrabold">
+                <p className="font-bold">
                   10%
                 </p>
               </li>
@@ -67,7 +67,7 @@ export default function structure() {
                 <p className="font-medium text-slate-600">
                   100%+
                 </p>
-                <p className="font-extrabold">
+                <p className="font-bold">
                   12%
                 </p>
               </li>
@@ -77,7 +77,7 @@ export default function structure() {
           {/* path chart */}
           <div className="col-span-1 -m-4 p-4 border-l-2 border-slate-200">
             <div>
-              <h2 className="text-xs font-bold text-slate-400">This Path Incentivizes:</h2>
+              <h2 className="text-xs font-bold text-slate-400">KPIs:</h2>
               
               <ul className="mt-4 space-y-2 text-sm">
                 <li className="flex items-center space-x-2">

@@ -8,8 +8,14 @@ export default function PlanList() {
       <Sidebar />
       <SubnavList />
 
-      <div className='pl-20 mt-12'>
-        this is the a plan list bois
+      <div className='pl-28 pr-12 mt-12 '>
+        <div className="">
+          <h1 className="font-bold text-2xl">57 Plans</h1>
+          <select className="" id="plan-sort" name="plan-sort" type="select" />
+        </div>    
+    
+
+
       </div>
       
 

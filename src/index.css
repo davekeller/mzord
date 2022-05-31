@@ -36,6 +36,21 @@ code {
     @apply rounded-md;
   }
 
+  .btn-zord {
+    @apply absolute;
+    @apply right-0;
+    @apply top-0;
+    @apply px-4;
+    @apply py-2.5;
+    @apply flex;
+    @apply items-center;
+    @apply space-x-1;
+    @apply text-white;
+    @apply bg-teal-500;
+    @apply rounded-r;
+    @apply hover:bg-blue-600;
+  }
+
   .flex-between {
     @apply flex;
     @apply items-center;
@@ -66,8 +81,8 @@ code {
     @apply rounded-md;
     @apply shadow-sm;
     @apply hover:shadow-xl;
-    @apply hover:bg-sky-600;
-    @apply hover:border-sky-600;
+    @apply hover:bg-blue-600;
+    @apply hover:border-blue-600;
   }
 
   p {

@@ -5,7 +5,7 @@ export default function title() {
       <div className='flex-between'>
         <div>
           <h1 className="text-2xl font-bold">Account Executive Saasy New Biz Plan</h1>
-          <p className="text-xs text-slate-500">This is a description line about the comp plan modeled above.</p>
+          <p className="text-xs text-slate-500">This is a description line about an AE plan that is focused on New Saas Accounts.</p>
         </div>
         <ul className="flex font-medium space-x-8 text-xs text-slate-500">
           <li className="flex space-x-2">
