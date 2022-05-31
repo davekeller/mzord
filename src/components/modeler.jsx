@@ -2,15 +2,15 @@
 export default function Modeler (props) {
   return (
     <div className='bg-white card rounded-md overflow-hidden'>
-      <div className="px-6 py-3 flex-between bg-slate-800">
-        <h1 className="text-sm font-semibold text-slate-400">
+      <div className="px-6 py-3 flex-between bg-qpSlate-800">
+        <h1 className="text-sm font-semibold text-qpSlate-400">
           Plan Modeling
         </h1>
 
       </div>
       {/* modeler inputs */}
       <form className="-mx-6 px-6 space-y-4">
-        <div className="px-6 pt-4 pb-8 bg-slate-700 space-y-4" >
+        <div className="px-6 pt-4 pb-8 bg-qpSlate-600 space-y-4" >
           <div className="relative">
             <label className="flex-between text-white border-white">
               <p className="label">

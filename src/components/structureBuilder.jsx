@@ -1,4 +1,4 @@
-import Structure from './structure.jsx';
+// import Structure from './structure.jsx';
 import Path from './path.jsx';
 
 export default function structureBuilder() {
