@@ -24,6 +24,10 @@ module.exports = {
           800: '#0F1D2B',
         },
       },
+      fontFamily: {
+        lato: 'Lato',
+        mukta: 'Mukta'
+      },
     },
   },
 
