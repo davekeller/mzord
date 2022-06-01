@@ -2,7 +2,7 @@
 export default function personas() {
   return (
     <div className="p-6 pt-4 bg-white shadow flex justify-around items-center text-center">
-      <button className='w-80 px-6 py-2 rounded space-y-2 text-blue-600'>
+      <button className='w-80 px-6 py-2 rounded space-y-2 text-qpWater'>
         <img src="/assets/personas/persona1.png" alt="persona" className="mx-auto"/>
         <p className="text-sm font-semibold">Accounting & Finance</p>
         <p className="text-gray-500 text-xs">
@@ -26,7 +26,7 @@ export default function personas() {
         </p>
       </button>
 
-      <button className='w-80 px-6 py-2 space-y-2 text-blue-400'>
+      <button className='w-80 px-6 py-2 space-y-2 text-qpSky'>
         <img src="/assets/personas/persona4.png" alt="persona" className="mx-auto"/>
         <p className="text-sm font-semibold">Sales Reps</p>
         <p className="text-gray-500 text-xs">

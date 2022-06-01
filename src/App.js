@@ -21,9 +21,10 @@ export default function App() {
   }
 
   return (
-    <div className='relative py-14 w-screen h-screen bg-slate-100 text-slate-800 hover:ease-in-out antialiased'>
-      <Navbar onChangePage={setPage}/>
-      
+    <div className='relative py-14 w-screen h-screen bg-qpSlate-100 text-qpSlate-800 hover:ease-in-out antialiased'>
+      {/* <Navbar onChangePage={setPage}/> */}
+      <NavAuth onChangePage={setPage}/>
+
       {pageComponent}
 
       <Footer />

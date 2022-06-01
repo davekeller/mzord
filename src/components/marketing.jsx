@@ -1,11 +1,11 @@
 
 export default function personas (props) {
   return (
-    <div className="py-24 bg-slate-200 overflow-hidden">
+    <div className="py-24 bg-qpSlate-200 overflow-hidden">
       <div className="relative w-2/3 mx-auto">
         <div className="w-2/3">
           
-          <h2 className="font-bold text-sm uppercase text-blue-500">Sales Compensation</h2>
+          <h2 className="font-bold text-sm uppercase text-qpSky">Sales Compensation</h2>
           <h1 className="mt-2 font-semibold text-3xl">
             Operating lean shouldn’t mean less revenue
           </h1>
@@ -16,10 +16,10 @@ export default function personas (props) {
         <img className="absolute -right-1/3 -top-1/3 shadow-2xl overflow-clip" src="/assets/hero.png" alt="hero img" />
       </div>
 
-      <div className="mt-32 py-32 bg-slate-800">
+      <div className="mt-32 py-32 bg-qpSlate-800">
         <div className="relative z-10 w-1/2 mx-auto">
           <h1 className="text-4xl font-bold text-white">
-            Right Commission. <span className="text-slate-400">Right Now.</span>
+            Right Commission. <span className="text-qpSlate-400">Right Now.</span>
           </h1>
           <p className="py-6 text-sm text-gray-500 leading-loose"> 
             Give your reps transparency into their earnings, rewards the team you have, reaps the rewards of higher rep retention, increases in attainment, and record-breaking sales with automated commission tracking.
@@ -27,12 +27,12 @@ export default function personas (props) {
           <div className="mt-6 flex items-center space-x-8">
             <button 
               onClick={() => props.onChangePage('planList')}
-              className="px-6 py-2 rounded-md bg-white font-bold text-slate-700 shadow hover:bg-slate-700 hover:text-white">
+              className="px-6 py-2 rounded-md bg-white font-bold text-qpSlate-700 shadow hover:bg-qpSlate-700 hover:text-white">
                 Discover Comp Plans &rarr;
             </button>
             <button 
               onClick={() => props.onChangePage('plan')}
-              className="px-6 py-2 rounded-md bg-teal-500 shadow text-white font-bold hover:bg-slate-700">
+              className="px-6 py-2 rounded-md bg-teal-500 shadow text-white font-bold hover:bg-qpSlate-700">
                 Design Your Plan &rarr;
             </button>
           </div>
@@ -41,12 +41,12 @@ export default function personas (props) {
       </div>
 
       <div className="mt-24 text-center">
-        <h1 className="text-4xl font-bold text-slate-400">
+        <h1 className="text-4xl font-bold text-qpSlate-400">
          Ye shall do this.
         </h1>
         <button 
           onClick={() => props.onChangePage('plan')}
-          className="mt-4 btn bg-blue-500 border-blue-500">
+          className="mt-4 btn bg-qpSky border-qpSky">
             ok ok gosh &rarr;
         </button>
       </div>

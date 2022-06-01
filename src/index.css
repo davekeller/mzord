@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: slatescale;
-  background: #EEF4F8;
-  color: #0E1D2A;
+  @apply bg-qpSlate-100;
+  @apply text-qpDark;
 }
 
 code {
@@ -28,7 +28,7 @@ code {
 
   .input {
     @apply border-2;
-    @apply border-slate-200;
+    @apply border-qpSlate-200;
     @apply py-2;
     @apply px-4;
     @apply w-full;
@@ -48,7 +48,7 @@ code {
     @apply text-white;
     @apply bg-teal-500;
     @apply rounded-r;
-    @apply hover:bg-blue-600;
+    @apply hover:bg-qpWater;
   }
 
   .flex-between {
@@ -81,8 +81,8 @@ code {
     @apply rounded-md;
     @apply shadow-sm;
     @apply hover:shadow-xl;
-    @apply hover:bg-blue-600;
-    @apply hover:border-blue-600;
+    @apply hover:bg-qpWater;
+    @apply hover:border-qpWater;
   }
 
   p {

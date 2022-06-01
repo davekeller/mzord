@@ -1,7 +1,7 @@
 
 export default function SubnavList (props) {
   return (
-    <div className="pl-28 pr-6 flex-between bg-slate-500">
+    <div className="pl-28 pr-6 flex-between bg-qpSlate-500">
       <ul className="flex space-x-6 text-sm items-center font-bold text-white">
         <li className="pr-3">
           My Plans

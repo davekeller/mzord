@@ -14,12 +14,12 @@ export default function Navbar (props) {
         <nav className="pl-12 flex items-center space-x-10">
           <button 
             onClick={() => props.onChangePage('planList')}
-            className="pt-3 pb-4 font-bold text-gray-400 hover:text-slate-700 border-t-4 border-white">
+            className="pt-3 pb-4 font-bold text-gray-400 hover:text-qpSlate-700 border-t-4 border-white">
             Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="pt-3 pb-4 font-bold text-slate-800 hover:text-slate-700 border-t-4 border-slate-800">
+            className="pt-3 pb-4 font-bold text-qpSlate-800 hover:text-qpSlate-700 border-t-4 border-qpSlate-800">
               Design Your Plan
           </button>
         </nav>
@@ -29,30 +29,30 @@ export default function Navbar (props) {
         <div className='flex items-center space-x-8 text-right'>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="font-semibold text-sm text-blue-500 hover:text-slate-700">
+            className="font-semibold text-sm text-qpSky hover:text-qpSlate-700">
             Product
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="font-semibold text-sm text-blue-500 hover:text-slate-700">
+            className="font-semibold text-sm text-qpSky hover:text-qpSlate-700">
               Solutions
           </button>
           <button 
             onClick={() => props.onChangePage('create')}
-            className="font-semibold text-sm text-blue-500 hover:text-slate-700">
+            className="font-semibold text-sm text-qpSky hover:text-qpSlate-700">
               About
           </button>
           <button 
             onClick={() => props.onChangePage('create')}
-            className="font-semibold text-sm text-blue-500 hover:text-slate-700">
+            className="font-semibold text-sm text-qpSky hover:text-qpSlate-700">
               Careers
           </button>
         </div>
-        <div className='flex items-center space-x-4 text-blue-500 text-right'>
-          <button className='text-blue-700 px-4 py-1 rounded font-bold bg-none hover:bg-teal-500 hover:text-white'>
+        <div className='flex items-center space-x-4 text-qpSky text-right'>
+          <button className='text-qpTwilight px-4 py-1 rounded font-bold bg-none hover:bg-teal-500 hover:text-white'>
             log in
           </button>
-          <button className='text-blue-700 px-4 py-1 rounded-md font-bold border-2 border-blue-300 hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
+          <button className='text-qpTwilight px-4 py-1 rounded-md font-bold border-2 border-qpPeriwinkle hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
             Sign Up
           </button>
         </div>
