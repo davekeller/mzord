@@ -1,7 +1,7 @@
 
 export default function personas() {
   return (
-    <div className="p-6 pt-4 bg-white shadow flex justify-around items-center text-center">
+    <div className="p-6 pt-4 bg-white shadow-sm flex justify-around items-center text-center">
       <button className='w-80 px-6 py-2 rounded space-y-2 text-qpWater'>
         <img src="/assets/personas/persona1.png" alt="persona" className="mx-auto"/>
         <p className="text-sm font-semibold">Accounting & Finance</p>

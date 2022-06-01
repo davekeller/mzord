@@ -1,7 +1,7 @@
 
 export default function personas (props) {
   return (
-    <div className="py-24 bg-qpSlate-200 overflow-hidden">
+    <div className="py-24 bg-gradient-to-tr to-white overflow-hidden">
       <div className="relative w-2/3 mx-auto">
         <div className="w-2/3">
           
@@ -16,7 +16,7 @@ export default function personas (props) {
         <img className="absolute -right-1/3 -top-1/3 shadow-2xl overflow-clip" src="/assets/hero.png" alt="hero img" />
       </div>
 
-      <div className="mt-32 py-32 bg-qpSlate-800">
+      <div className="mt-32 py-32 bg-qpTwilight">
         <div className="relative z-10 w-1/2 mx-auto">
           <h1 className="text-4xl font-bold text-white">
             Right Commission. <span className="text-qpSlate-400">Right Now.</span>
