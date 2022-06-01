@@ -1,5 +1,5 @@
 
-export default function sidebar (props) {
+export default function Sidebar (props) {
   return (
     <div className='fixed left-0 w-20 px-6 bg-qpDark h-screen'>
       <div className='py-8 flex-center flex-col space-y-6 text-center text-qpSlate-500 text-sm font-semibold'>

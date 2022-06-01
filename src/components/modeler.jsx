@@ -2,17 +2,17 @@
 export default function Modeler (props) {
   return (
     <div className='bg-white card rounded-md overflow-hidden'>
-      <div className="px-6 py-3 flex-between bg-qpNavy">
-        <h1 className="text-sm font-semibold text-qpPeriwinkle">
+      <div className="px-6 py-3 flex-between bg-white border-t-4 border-qpSlate-300">
+        <h1 className="text-sm font-semibold text-qpSlate-500">
           Plan Modeling
         </h1>
 
       </div>
       {/* modeler inputs */}
       <form className="-mx-6 px-6 space-y-4">
-        <div className="px-6 pt-4 pb-8 bg-qpTwilight space-y-4" >
+        <div className="px-6 pt-4 pb-8 bg-qpSlate-300 space-y-4" >
           <div className="relative">
-            <label className="flex-between text-white border-white">
+            <label className="flex-between border-white">
               <p className="label">
                 OTE 
                 <span>
@@ -44,7 +44,7 @@ export default function Modeler (props) {
 
 
           <div className="relative">
-            <label className="flex-between text-white border-white">
+            <label className="flex-between">
               <p className="label">
                 Base:Variable
                 <span>

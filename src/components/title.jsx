@@ -1,5 +1,5 @@
 
-export default function title() {
+export default function Title() {
   return (
     <div>
       <div className='flex-between'>
