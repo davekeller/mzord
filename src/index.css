@@ -106,8 +106,8 @@ code {
 
   .card {
     @apply bg-white;
-    @apply shadow-lg;
-    @apply shadow-gray-800/5;
+    @apply shadow;
+    @apply shadow-qpSlate-800/5;
     @apply rounded-lg;
   }
 }

@@ -14,12 +14,12 @@ export default function navAuth (props) {
         <nav className="pl-12 flex items-center space-x-12">
           <button 
             onClick={() => props.onChangePage('planList')}
-            className="pt-3 pb-4 font-bold text-white opacity-50 border-t-4 border-transparent hover:text-qpSky">
+            className="pt-3 pb-4 font-bold text-white opacity-50 border-t-4 border-transparent hover:opacity-100">
             Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="pt-3 pb-4 font-bold text-white border-t-4 border-white hover:text-qpSky">
+            className="pt-3 pb-4 font-bold text-white border-t-4 border-white">
               Design Your Plan
           </button>
         </nav>
