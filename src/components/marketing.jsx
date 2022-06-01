@@ -1,5 +1,5 @@
 
-export default function personas (props) {
+export default function marketing (props) {
   return (
     <div className="py-24 bg-gradient-to-tr to-white overflow-hidden">
       <div className="relative w-2/3 mx-auto">
