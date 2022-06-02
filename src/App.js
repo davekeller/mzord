@@ -20,13 +20,12 @@ export default function App() {
   if (page === 'templates') {
     pageComponent = (<Templates />);
   }
-
   if (page === 'planList') {
     pageComponent = (<PlanList />);
   }
 
   return (
-    <div className='relative py-16 w-screen h-screen bg-qpSlate-100 text-qpSlate-800 hover:ease-in-out antialiased'>
+    <div className='relative py-16 w-screen h-screen bg-qpSlate-100 text-qpDark hover:ease-in-out antialiased'>
       {/* <Navbar onChangePage={setPage}/> */}
       <NavAuth onChangePage={setPage}/>
 

@@ -29,12 +29,14 @@ code {
 
   .input {
     @apply border-2;
-    @apply border-qpSlate-200;
+    @apply border-qpSlate-300;
     @apply py-2;
     @apply px-4;
     @apply w-full;
     @apply font-bold;
     @apply rounded-md;
+    @apply placeholder-slate-500;
+    @apply text-qpWater;
   }
 
   .btn-zord {
