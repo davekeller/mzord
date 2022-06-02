@@ -2,22 +2,19 @@
 export default function Modeler (props) {
   return (
     <div className='bg-white card rounded-md overflow-hidden'>
-      <div className="px-6 py-3 flex-between bg-white border-t-4 border-qpSlate-300">
-        <h1 className="text-sm font-semibold text-qpSlate-500">
-          Plan Modeling
-        </h1>
 
-      </div>
-      {/* modeler inputs */}
+      <h1 className="px-6 pt-4 pb-3 text-qpSlate-200 text-sm font-semibold bg-qpSlate-600">
+        Plan Modeling
+      </h1>
       <form className="-mx-6 px-6 space-y-4">
-        <div className="px-6 pt-4 pb-8 bg-qpSlate-300 space-y-4" >
+        <div className="px-6 pt-4 pb-8 bg-qpSlate-700 text-white space-y-4" >
           <div className="relative">
             <label className="flex-between border-white">
               <p className="label">
-                OTE 
+                On-Target Earnings
                 <span>
                   <a href="/" className="info">
-                    On-Target Earnings 
+                    Attainment/Quota
                   </a>
                 </span>
               </p>
@@ -42,14 +39,13 @@ export default function Modeler (props) {
             </div>
           </div>
 
-
           <div className="relative">
             <label className="flex-between">
               <p className="label">
-                Base:Variable
+                Base : Variable Pay Mix
                 <span>
                   <a href="/" className="info">
-                    Pay Mix Info
+                    More Info
                   </a>
                 </span>
               </p>
@@ -69,7 +65,6 @@ export default function Modeler (props) {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </button>
-          
             </div>
           </div>
         </div>
@@ -78,10 +73,10 @@ export default function Modeler (props) {
           <div className="relative">
             <label className="flex-between">
               <p className="label">
-                ASP/ACV
+                Revenue Range
                 <span>
                   <a href="/" className="info">
-                    Avg Contract Value
+                    Annual Business Revenue
                   </a>
                 </span>
               </p>
@@ -100,7 +95,7 @@ export default function Modeler (props) {
                 Quota:OTE Ratio
                 <span>
                   <a href="/" className="info">
-                    mor info fren
+                    More Info
                   </a>
                 </span>
               </p>

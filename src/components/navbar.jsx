@@ -14,12 +14,12 @@ export default function Navbar (props) {
         <nav className="pl-12 flex items-center space-x-10">
           <button 
             onClick={() => props.onChangePage('planList')}
-            className="pt-3 pb-4 font-bold text-gray-400 hover:text-qpSlate-700 border-t-4 border-white">
+            className="pt-4 pb-5 font-bold text-gray-400 hover:text-qpSlate-700 border-t-4 border-white">
             Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="pt-3 pb-4 font-bold text-qpSlate-800 hover:text-qpSlate-700 border-t-4 border-qpSlate-800">
+            className="pt-4 pb-5 font-bold text-qpSlate-800 hover:text-qpSlate-700 border-t-4 border-qpSlate-800">
               Design Your Plan
           </button>
         </nav>

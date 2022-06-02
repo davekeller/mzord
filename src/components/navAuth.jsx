@@ -14,12 +14,12 @@ export default function navAuth (props) {
         <nav className="pl-14 flex items-center space-x-12">
           <button 
             onClick={() => props.onChangePage('planList')}
-            className="pt-3 pb-4 font-bold text-white opacity-50 border-t-4 border-transparent hover:opacity-100">
+            className="pt-4 pb-5 font-bold text-white opacity-50 border-t-4 border-transparent hover:opacity-100">
             Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="pt-3 pb-4 font-bold text-white border-t-4 border-white">
+            className="pt-4 pb-5 font-bold text-white border-t-4 border-white">
               Design Your Plan
           </button>
         </nav>
@@ -27,35 +27,30 @@ export default function navAuth (props) {
       
       <div className="flex-space">
         <div className='flex items-center space-x-8 text-right'>
+        <button
+            onClick={() => props.onChangePage('home')}
+            className="font-semibold text-sm text-qpSlate-400 hover:text-white">
+              home
+          </button>
+          <button
+            onClick={() => props.onChangePage('templates')}
+            className="font-semibold text-sm text-qpSlate-400 hover:text-white">
+              templates
+          </button>
+          <button 
+            onClick={() => props.onChangePage('planList')}
+            className="font-semibold text-sm text-qpSlate-400 hover:text-white">
+              plans
+          </button>
           <button 
             onClick={() => props.onChangePage('plan')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-white">
-            Product
-          </button>
-          <button 
-            onClick={() => props.onChangePage('plan')}
-            className="font-semibold text-sm text-qpSlate-400 hover:text-white">
-              Solutions
-          </button>
-          <button 
-            onClick={() => props.onChangePage('create')}
-            className="font-semibold text-sm text-qpSlate-400 hover:text-white">
-              About
-          </button>
-          <button 
-            onClick={() => props.onChangePage('create')}
-            className="font-semibold text-sm text-qpSlate-400 hover:text-white">
-              Careers
+              plan detail
           </button>
         </div>
-        <div className='flex items-center space-x-4 text-qpSlate-400 text-right'>
-          <button className='text-white px-4 py-1 rounded font-bold bg-none hover:bg-teal-500 hover:text-white'>
-            log in
-          </button>
-          <button className='text-white px-4 py-1 rounded-md font-bold border-2 border-qpWater hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
-            Sign Up
-          </button>
-        </div>
+        <button className='text-white text-sm text-center p-2 rounded-full font-bold bg-qpWater hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
+          DK
+        </button>
       </div>
 
     </div>
