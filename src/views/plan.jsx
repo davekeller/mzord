@@ -3,11 +3,11 @@ import Subnav from '../components/subnav.jsx';
 import Title from '../components/title.jsx';
 import CTA from '../components/cta.jsx';
 import StructureBuilder from '../components/structureBuilder.jsx';
-import Modeler from '../components/modeler.jsx';
+import Modeler from '../components/modeler/modeler.jsx';
 
 export default function Plan() {
   return (
-    <div className='relative w-screen h-full pb-24'>
+    <div className='relative w-screen min-h-screen pb-24'>
       <Sidebar />
       <Subnav />
 

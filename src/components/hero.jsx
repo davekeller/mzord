@@ -12,19 +12,19 @@ export default function Hero (props) {
         <div className="mt-6 flex items-center justify-center space-x-8">
           <button 
             onClick={() => props.onChangePage('planList')}
-            className="px-6 py-2 rounded-md font-bold text-qpGreen-200 bg-none border-2 border-white border-opacity-30 shadow shadow-qpDark/50 hover:text-qpGreen-200 hover:bg-white">
-              Discover Comp Plans &rarr;
+            className="px-6 py-2 rounded-md font-bold text-white bg-none border-2 border-qpSky shadow shadow-qpDark/50 hover:text-qpGreen-200 hover:bg-white">
+              Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="px-6 py-2 rounded-md bg-qpGreen-200 shadow shadow-qpDark/50 text-qpDark font-bold hover:text-qpGreen-200 hover:bg-white">
+            className="px-6 py-2 rounded-md font-bold text-white bg-qpGreen-200 border-2 border-qpGreen-200 shadow shadow-qpDark/50 hover:text-qpGreen-200 hover:bg-white">
               Design Your Plan &rarr;
           </button>
         </div>
       </div>
 
-      {/* <img src="/assets/blob_left.svg" className="absolute -left-14 -top-40 w-1/4" />
-      <img src="/assets/blob_right.svg" className="absolute -right-8 -top-2 w-1/4" /> */}
+      <img src="/assets/blob_left.svg" className="absolute -left-48 -top-24 w-1/4" />
+      <img src="/assets/blob_right.svg" className="absolute -right-40 -top-2 w-1/4" />
     </div>
   )
 }
