@@ -48,10 +48,11 @@ code {
     @apply flex;
     @apply items-center;
     @apply space-x-1;
-    @apply text-white;
-    @apply bg-teal-500;
+    @apply text-teal-500;
     @apply rounded-r;
-    @apply hover:bg-qpWater;
+    @apply border-qpSlate-200;
+    @apply hover:bg-qpSlate-300;
+    @apply hover:text-white;
   }
 
   .flex-between {
