@@ -4,14 +4,16 @@ import Path from './path.jsx';
 export default function structureBuilder() {
   return (
     <div>
-      <div className="p-6 pb-8 card border-t-4 border-teal-400 rounded-t">
-          <h1 className='text-sm font-semibold text-qpSlate-500'>
-            Plan Forecast
-          </h1>
+      <div className='rounded-t-md card'>
+        <h1 className="px-6 pt-4 pb-3 text-sm font-semibold bg-qpSlate-300 rounded-t-md overflow-hidden">
+          Plan Forecast
+        </h1>
+        <div className="px-6 pt-4 pb-8">
           <img className='mt-2 border-2 border-qpSlate-300 rounded-md col-span-3' src="/assets/graph.png" />
           <p className='mt-3 text-qpSlate-500 text-xs italic'>
             Drag the slider to see your earnings per attainment.
           </p>
+        </div>
       </div>
 
       <div className='mt-8 col-span-full'>

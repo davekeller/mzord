@@ -1,7 +1,7 @@
 
 export default function Hero (props) {
   return (
-    <div className="relative p-28 bg-gradient-to-bl from-qpNavy to-qpDark text-center overflow-hidden">
+    <div className="relative p-28 bg-gradient-to-br from-qpDark via-qpNavy to-qpTwilight text-center overflow-hidden">
       <div className="relative z-10 text-center w-2/3 mx-auto">
         <h1 className="text-5xl font-bold text-white">
           Right Commission. <span className="text-qpGreen-200">Right Now.</span>
