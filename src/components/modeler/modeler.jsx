@@ -10,7 +10,7 @@ export default function Modeler (props) {
         Plan Modeling
       </h1>
 
-      <form className="-mx-6 px-6 space-y-4">
+      <form className="px-6 space-y-4">
 
         <ModelOTE />
         <ModelRevenue />

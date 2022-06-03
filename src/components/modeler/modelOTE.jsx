@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ModelOTE (props) {
   return (
-    <div className="px-6 pt-4 pb-8 bg-qpSlate-700 text-white space-y-4" >
+    <div className="px-8 -mx-6 pt-4 pb-8 bg-qpSlate-700 text-white space-y-4" >
       <div className="relative">
         <label className="flex-between border-white">
           <p className="label">

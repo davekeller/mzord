@@ -43,7 +43,7 @@ code {
     @apply absolute;
     @apply right-0;
     @apply top-0;
-    @apply px-4;
+    @apply pl-4 pr-2.5;
     @apply py-2.5;
     @apply flex;
     @apply items-center;
@@ -109,7 +109,7 @@ code {
 
   .card {
     @apply bg-white;
-    @apply shadow;
+    @apply shadow-md;
     @apply shadow-qpSlate-800/5;
     @apply rounded-lg;
   }
