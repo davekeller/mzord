@@ -43,6 +43,7 @@ export default function structure() {
               </li>
             </ul>
 
+
             <ul className="space-y-3 pr-12">
               <li>
                 <h2 className="text-xs font-bold text-qpSlate-400">Earnings Tiers</h2>
