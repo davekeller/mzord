@@ -4,7 +4,7 @@ export default function ModelRevenue (props) {
   return (
     <div className="grid grid-cols-3 gap-8 pt-4">
       <div className="col-span-2">
-        <div className="relative pb-6 pt-2 space-y-4">
+        <div className="relative pb-8 pt-4 space-y-4">
           <div className="relative">
             <label>
               <p className="label">
@@ -70,7 +70,7 @@ export default function ModelRevenue (props) {
                 </span>
               </p>
             </label>
-            <div className="grid grid-cols-4 gap-2 items-center">
+            <div className="grid grid-cols-4 gap-4 items-center">
               <div className="relative col-span-3">
                 <input type="text" className="input pl-9" name="onTarget" placeholder="700,000" />
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -98,7 +98,7 @@ export default function ModelRevenue (props) {
       </div>
       <div className="flex-center flex-col">
         <h3 className="font-semibold">Quota:OTE</h3>
-        <img src="/assets/gauge.png" alt="guage" />
+        <img src="/assets/gauge.png" alt="gauge" />
         <p className="text-xs font-semibold text-qpSlate-500">This is a healthy ratio 👍️</p>
       </div>
 
