@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Navbar from './components/navbar.jsx';
+// import Navbar from './components/navbar.jsx';
 import NavAuth from './components/navAuth.jsx';
 import Footer from './components/footer.jsx';
 // import Sidebar from "./components/sidebar.jsx";

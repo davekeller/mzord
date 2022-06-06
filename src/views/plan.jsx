@@ -11,12 +11,12 @@ export default function Plan() {
       <Sidebar />
       <Subnav />
       <div className='pl-20 mt-12'>
-        <div className='grid grid-cols-2 px-8 gap-8'>
-          <div className=' space-y-6'>
+        <div className='grid grid-cols-5 px-8 gap-8'>
+          <div className='col-span-3 space-y-6'>
             <Title />
             <StructureBuilder />
           </div>
-          <div className='   space-y-8'>
+          <div className='col-span-2 space-y-8'>
             <CTA />
             <Modeler />
           </div>

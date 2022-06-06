@@ -69,13 +69,13 @@ export default function ModelOTE (props) {
 
       {/* Quota and Recommendation */}
       <div className="space-y-4">
-        <div className="-mt-0.5 px-4 py-2 flex space-x-4 items-center bg-qpSlate-600 rounded-md">
+        <div className="px-4 py-2 flex space-x-4 items-center bg-qpSlate-600 rounded-md">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
           </svg>
           <div>
             <h3 className="font-semibold text-white">Monthly Incentivizer</h3>
-            <p className="text-xs">This plan incentivizes monthly sales</p>
+            <p className="-mt-0.5 text-xs text-qpSlate-200">incentivizes monthly sales</p>
           </div>     
         </div>
 
