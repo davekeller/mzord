@@ -13,7 +13,7 @@ export default function structure() {
         {/* quota details */}
         <div className="p-4 pb-6 grid grid-cols-3">
           <div className="grid col-span-2 grid-cols-2 gap-6">
-            <ul className="space-y-3">
+            <ul className="space-y-4">
               <li className="col-span-1">
                 <h2 className="text-xs font-bold text-qpSlate-400">Quota Details</h2>
               </li>
@@ -43,8 +43,8 @@ export default function structure() {
               </li>
             </ul>
 
-            <ul className="space-y-2 pr-12">
-              <li className="col-span-1">
+            <ul className="space-y-3 pr-12">
+              <li>
                 <h2 className="text-xs font-bold text-qpSlate-400">Earnings Tiers</h2>
               </li>
               <li className="flex-between border-b border-gray-200 py-0.5">

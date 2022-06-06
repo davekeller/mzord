@@ -1,7 +1,7 @@
 
 export default function marketing (props) {
   return (
-    <div className="py-24 bg-gradient-to-tr to-white overflow-hidden">
+    <div className="py-40 bg-gradient-to-tr to-white overflow-hidden">
       <div className="relative w-2/3 mx-auto">
         <div className="w-2/3">
           
@@ -21,34 +21,29 @@ export default function marketing (props) {
           <h1 className="text-4xl font-bold text-white">
             Right Commission. <span className="text-qpSlate-400">Right Now.</span>
           </h1>
-          <p className="py-6 text-sm text-gray-500 leading-loose"> 
+          <p className="py-6 text-sm text-qpSlate-300 leading-loose"> 
             Give your reps transparency into their earnings, rewards the team you have, reaps the rewards of higher rep retention, increases in attainment, and record-breaking sales with automated commission tracking.
           </p>
-          <div className="mt-6 flex items-center space-x-8">
-            <button 
-              onClick={() => props.onChangePage('planList')}
-              className="px-6 py-2 rounded-md bg-white font-bold text-qpSlate-700 shadow hover:bg-qpSlate-700 hover:text-white">
-                Discover Comp Plans &rarr;
-            </button>
-            <button 
-              onClick={() => props.onChangePage('plan')}
-              className="px-6 py-2 rounded-md bg-teal-500 shadow text-white font-bold hover:bg-qpSlate-700">
-                Design Your Plan &rarr;
-            </button>
-          </div>
+          <button 
+            onClick={() => props.onChangePage('planList')}
+            className="px-6 py-2 rounded-md bg-white font-bold text-qpSlate-700 shadow hover:bg-qpSlate-700 hover:text-white">
+              Discover Comp Plans &rarr;
+          </button>
           <img className="absolute -left-2/3 -top-6 w-96 shadow-2xl overflow-clip" src="/assets/hero.png" alt="hero img" />
         </div>
       </div>
 
-      <div className="mt-24 text-center">
-        <h1 className="text-4xl font-bold text-qpSlate-400">
-         Ye shall do this.
+      <div className="relative mt-32 text-center">
+        <h1 className="text-4xl font-bold text-qpSlate-600">
+         Call To Action!
         </h1>
         <button 
           onClick={() => props.onChangePage('plan')}
-          className="mt-4 btn bg-qpSky border-qpSky">
-            ok ok gosh &rarr;
+          className="mt-4 btn bg-qpGreen-200 border-qpGreen-200">
+            yes please &rarr;
         </button>
+        <img src="/assets/blob_right.svg" className="absolute -left-40 -bottom-80 w-1/4 rotate-180" />
+
       </div>
     </div>
   )

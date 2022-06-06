@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ModelRevenue (props) {
   return (
-    <div className="grid grid-cols-3 gap-6">
+    <div className="grid grid-cols-3 gap-8 pt-4">
       <div className="col-span-2">
         <div className="relative pb-6 pt-2 space-y-4">
           <div className="relative">
@@ -99,8 +99,7 @@ export default function ModelRevenue (props) {
       <div className="flex-center flex-col">
         <h3 className="font-semibold">Quota:OTE</h3>
         <img src="/assets/gauge.png" alt="guage" />
-        <p className="text-xs font-semibold text-qpSlate-500">This is a healthy ratio</p>
-        <p className="mt-2 text-xl">✨ 👍️</p>
+        <p className="text-xs font-semibold text-qpSlate-500">This is a healthy ratio 👍️</p>
       </div>
 
     </div>    

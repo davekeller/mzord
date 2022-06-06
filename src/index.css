@@ -30,6 +30,7 @@ code {
   .input {
     @apply border-2;
     @apply border-qpSlate-300;
+    @apply bg-white;
     @apply py-2;
     @apply px-4;
     @apply w-full;
@@ -37,6 +38,7 @@ code {
     @apply rounded-md;
     @apply placeholder-slate-500;
     @apply text-qpWater;
+    @apply focus:shadow-lg;
   }
 
   .btn-zord {
@@ -48,10 +50,9 @@ code {
     @apply flex;
     @apply items-center;
     @apply space-x-1;
-    @apply text-teal-500;
+    @apply text-qpGreen-200;
     @apply rounded-r;
-    @apply border-qpSlate-200;
-    @apply hover:bg-qpSlate-300;
+    @apply hover:bg-qpGreen-200;
     @apply hover:text-white;
   }
 

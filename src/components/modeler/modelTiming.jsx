@@ -2,10 +2,10 @@ import React from "react";
 
 export default function ModelRevenue (props) {
   return (
-    <div className="grid grid-cols-3 gap-6">
+    <div className="grid grid-cols-3 gap-8 border-t-2 border-qpSlate-200 pt-6 pb-8">
       <div className="col-span-2">
 
-      <div className="relative py-6 space-y-4 border-t-2 border-qpSlate-200">
+      <div className="relative space-y-4">
         <div className="relative">
           <label className="flex-between">
             <p className="label">
@@ -77,13 +77,9 @@ export default function ModelRevenue (props) {
     </div>
 
     <div className="flex-center flex-col">
-      <h3 className="text-2xl font-bold">Quota:</h3>
-      <div className="relative">
-        <input type="text" className="input pl-9 text-qpWater" name="onTarget" placeholder="140,000" value="140,000"/>
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>      
-      </div>
+      <h3 className="font-semibold">Deals Per Period</h3>
+      <img src="/assets/gauge.png" alt="guage" />
+      <p className="text-xs font-semibold text-qpSlate-500">This is a healthy ratio 👍️</p>
     </div>
   </div>
   )
