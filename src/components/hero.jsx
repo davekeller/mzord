@@ -12,12 +12,12 @@ export default function Hero (props) {
         <div className="mt-6 flex items-center justify-center space-x-8">
           <button 
             onClick={() => props.onChangePage('planList')}
-            className="px-6 py-2 rounded-md font-bold text-white bg-none border-2 border-qpSky shadow shadow-qpDark/50 hover:text-qpGreen-200 hover:bg-white">
+            className="px-6 py-2 rounded-md font-bold text-white bg-none border-2 border-qpSky shadow shadow-qpDark/50 hover:text-qpGreen-200 hover:bg-white hover:border-white">
               Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="px-6 py-2 rounded-md font-bold text-white bg-qpGreen-200 border-2 border-qpGreen-200 shadow shadow-qpDark/50 hover:text-qpGreen-200 hover:bg-white">
+            className="px-6 py-2 rounded-md font-bold text-white bg-qpGreen-200 border-2 border-qpGreen-200 shadow shadow-qpDark/50 hover:text-qpGreen-200 hover:bg-white hover:border-white">
               Design Your Plan &rarr;
           </button>
         </div>
