@@ -5,9 +5,9 @@ export default function structureBuilder() {
   return (
     <div>
       <div className='px-6 pb-8 card overflow-hidden'>
-        <p className="-mx-6 px-6 pt-4 pb-3 bg-qpSlate-500 text-white text-sm font-semibold">
+        <p className="-mx-6 px-6 py-4 bg-qpSlate-500 text-white text-sm font-semibold">
           Plan Forecast
-          <span className='pl-2 text-qpSlate-200 text-xs italic'>
+          <span className='pl-2 text-qpSlate-200 text-xs font-medium italic'>
             Drag the slider to see your earnings per attainment.
           </span>
         </p>
@@ -34,6 +34,7 @@ export default function structureBuilder() {
           <h2 className="text-lg font-bold">Paths to Quota</h2>
         </div>
         <div className="mt-4 space-y-6">
+          <Path />
           <Path />
         </div>
       </div>
