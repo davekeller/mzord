@@ -35,14 +35,10 @@ export default function Modeler (props) {
         </ul>
       </div>
 
-
-
       <form className="px-6">
-
         <ModelOTE />
         <ModelRevenue />
         <ModelTiming />
-
       </form>
     </div>
   )

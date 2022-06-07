@@ -4,7 +4,7 @@ import Path from './path.jsx';
 export default function structureBuilder() {
   return (
     <div>
-      <div className='px-6 pb-8 card overflow-hidden'>
+      <div className='mt-10 px-6 pb-8 card overflow-hidden'>
         <p className="-mx-6 px-6 py-4 bg-qpSlate-500 text-white text-sm font-semibold">
           Plan Forecast
           <span className='pl-2 text-qpSlate-200 text-xs font-medium italic'>
