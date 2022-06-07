@@ -1,5 +1,5 @@
 
-export default function structure() {
+export default function Path() {
   return (
     <div className='card'>
       <div>
