@@ -7,7 +7,7 @@ import Modeler from '../components/modeler/modeler.jsx';
 
 export default function Plan() {
   return (
-    <div className='relative w-screen min-h-screen pb-24'>
+    <div className='relative w-screen min-h-screen'>
       <Sidebar />
       <Subnav />
       <div className='pl-20 mt-12'>

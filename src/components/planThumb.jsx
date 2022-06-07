@@ -1,8 +1,8 @@
 
 export default function planThumb() {
   return (
-    <div className="card px-6 pb-4 space-y-4 text-qpSlate-500 shadow shadow-qpSlate-800/5">
-    <div className="-mx-6 px-6 pt-4 flex-between pb-4 bg-qpSlate-300 rounded-t-lg">
+    <div className="card px-6 pb-4 space-y-4 text-qpSlate-500 shadow shadow-qpSlate-800/5 hover:shadow-xl cursor-pointer border-4 border-white hover:border-qpBlue-100">
+    <div className="pt-4 flex-between pb-4 bg-white rounded-t-lg border-b-2 border-qpSlate-100">
       <div className="flex items-center space-x-4">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-qpWater" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M5.636 18.364a9 9 0 010-12.728m12.728 0a9 9 0 010 12.728m-9.9-2.829a5 5 0 010-7.07m7.072 0a5 5 0 010 7.07M13 12a1 1 0 11-2 0 1 1 0 012 0z" />
