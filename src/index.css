@@ -111,7 +111,7 @@ code {
 
   .card {
     @apply bg-white;
-    @apply shadow-md;
+    @apply shadow-lg;
     @apply shadow-qpSlate-800/5;
     @apply rounded-lg;
   }
