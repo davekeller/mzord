@@ -14,12 +14,12 @@ export default function navAuth (props) {
         <nav className="pl-14 flex items-center space-x-12">
           <button 
             onClick={() => props.onChangePage('planList')}
-            className="pt-4 pb-5 font-semibold text-white opacity-50 border-t-4 border-transparent hover:opacity-100">
+            className="py-4 font-semibold text-white opacity-50 border-t-4 border-transparent hover:opacity-100">
             Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="pt-4 pb-5 font-semibold text-white border-t-4 border-white">
+            className="py-4 font-semibold text-white border-t-4 border-white">
               Design Your Plan
           </button>
         </nav>
@@ -35,7 +35,7 @@ export default function navAuth (props) {
           <button
             onClick={() => props.onChangePage('planType')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-white">
-              plan types
+              choose
           </button>
           <button
             onClick={() => props.onChangePage('templates')}
@@ -43,14 +43,14 @@ export default function navAuth (props) {
               templates
           </button>
           <button 
-            onClick={() => props.onChangePage('planList')}
-            className="font-semibold text-sm text-qpSlate-400 hover:text-white">
-              plans
-          </button>
-          <button 
             onClick={() => props.onChangePage('plan')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-white">
-              plan detail
+              plan
+          </button>
+          <button 
+            onClick={() => props.onChangePage('planList')}
+            className="font-semibold text-sm text-qpSlate-400 hover:text-white">
+              plan list
           </button>
         </div>
         <button className='text-white text-sm text-center p-2 rounded-full font-bold bg-qpWater hover:border-teal-500 hover:bg-teal-500 hover:text-white'>

@@ -31,7 +31,7 @@ export default function App() {
   }
 
   return (
-    <div className='relative py-16 w-screen h-screen bg-qpSlate-100 text-qpDark hover:ease-in-out antialiased'>
+    <div className='relative py-14 w-screen h-screen bg-qpSlate-100 text-qpDark hover:ease-in-out antialiased'>
       {/* <Navbar onChangePage={setPage}/> */}
       <NavAuth onChangePage={setPage}/>
       {/* <Sidebar /> */}

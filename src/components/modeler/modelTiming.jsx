@@ -12,7 +12,7 @@ export default function ModelRevenue (props) {
               Avg Contract Value
               <span>
                 <a href="/" className="info">
-                  More Info
+                  more
                 </a>
               </span>
             </p>
@@ -41,7 +41,7 @@ export default function ModelRevenue (props) {
               Deals Per Period
               <span>
                 <a href="/" className="info">
-                  More Info
+                  more
                 </a>
               </span>
             </p>
@@ -60,7 +60,7 @@ export default function ModelRevenue (props) {
               Quota Frequency
               <span>
                 <a href="/" className="info">
-                  More Info
+                  more
                 </a>
               </span>
             </p>
@@ -78,8 +78,8 @@ export default function ModelRevenue (props) {
 
     <div className="flex-center flex-col">
       <h3 className="font-semibold">Deals Per Period</h3>
-      <img src="/assets/gauge.png" alt="guage" />
       <p className="text-xs font-semibold text-qpSlate-500">This is a healthy ratio 👍️</p>
+      <img src="/assets/gauge.png" alt="guage" />
     </div>
   </div>
   )

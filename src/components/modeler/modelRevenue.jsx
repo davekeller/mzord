@@ -36,7 +36,7 @@ export default function ModelRevenue (props) {
                 Quota : OTE Ratio
                 <span>
                   <a href="/" className="info">
-                    More Info
+                    more
                   </a>
                 </span>
               </p>
@@ -65,7 +65,7 @@ export default function ModelRevenue (props) {
                 Annualized Quota
                 <span>
                   <a href="/" className="info">
-                    More Info
+                    more
                   </a>
                 </span>
               </p>
@@ -98,11 +98,9 @@ export default function ModelRevenue (props) {
       </div>
       <div className="flex-center flex-col">
         <h3 className="font-semibold">Quota:OTE</h3>
-        <img src="/assets/gauge.png" alt="gauge" />
         <p className="text-xs font-semibold text-qpSlate-500">This is a healthy ratio 👍️</p>
+        <img className="mt-2" src="/assets/gauge.png" alt="gauge" />
       </div>
-
     </div>    
-    
   )
 }
