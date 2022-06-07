@@ -1,7 +1,7 @@
 
 export default function Cta() {
   return (
-    <div className="flex justify-between items-end">
+    <div className="mb-12 flex justify-between items-end">
       
       <div className="flex space-x-4 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
