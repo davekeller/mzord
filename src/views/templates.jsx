@@ -46,6 +46,13 @@ export default function Templates() {
           <PlanSmall2 />
         </div>
 
+        <h2 className="mt-8 text-center">
+          <a className="font-bold text-qpTwilight" href="#">
+            View More Plans &rarr;
+          </a>
+        </h2>
+          
+
       </div>
     </div>
   )
