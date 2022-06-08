@@ -78,7 +78,7 @@ export default function ModelOTE (props) {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="-mt-0.5 relative">
           <label className="flex-center flex-col">
             <p className="label">
               Pay Mix

@@ -101,8 +101,8 @@ code {
   .info {
     @apply px-2;
     @apply text-xs;
+    @apply font-bold;
     @apply underline;
-    @apply font-normal;
     @apply italic;
     @apply opacity-50;
     @apply font-medium;
