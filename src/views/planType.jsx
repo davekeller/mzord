@@ -22,14 +22,6 @@ export default function PlanType (props) {
       
         <div className="mt-12 grid grid-cols-2 gap-12">
           <button 
-            className="p-6 rounded-xl border-4 border-qpSlate-200 shadow-qpDark/10 hover:bg-qpSlate-100">
-            <img src="/assets/icons/target.svg" className="h-16 mx-auto" alt="doc" />
-            <h2 className="py-1.5 px-4 my-6 text-lg font-semibold bg-qpSky text-white rounded-lg">
-              Start from Scratch &rarr;
-            </h2>
-            <p className="font-semibold text-qpSlate-500">Build your plan using our flexible Comp Plan Builder</p>
-          </button>
-          <button 
             onClick={() => props.onChangePage('templates')}
             className="p-6 rounded-xl border-4 border-qpSlate-200 shadow-qpDark/10 hover:bg-qpSlate-100">
             <img className="h-16 mx-auto" src="/assets/icons/search.svg" alt="search" />
@@ -37,6 +29,14 @@ export default function PlanType (props) {
               Explore Plans &rarr;
             </h2>
             <p className="mt-2 font-semibold text-qpSlate-500">Explore and forecast comp plan templates</p>
+          </button>
+          <button 
+            className="p-6 rounded-xl border-4 border-qpSlate-200 shadow-qpDark/10 hover:bg-qpSlate-100">
+            <img src="/assets/icons/target.svg" className="h-16 mx-auto" alt="doc" />
+            <h2 className="py-1.5 px-4 my-6 text-lg font-semibold bg-qpSky text-white rounded-lg">
+              Start from Scratch &rarr;
+            </h2>
+            <p className="font-semibold text-qpSlate-500">Build your plan using our flexible Comp Plan Builder</p>
           </button>
         </div>
       </div>
