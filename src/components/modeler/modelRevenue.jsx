@@ -11,7 +11,7 @@ export default function ModelRevenue (props) {
                 Revenue Range
                 <span>
                   <a href="/" className="info">
-                    Annual Business Revenue
+                    more
                   </a>
                 </span>
               </p>

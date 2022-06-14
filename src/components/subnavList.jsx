@@ -1,11 +1,11 @@
 
 export default function SubnavList (props) {
   return (
-    <div className="pl-24 pr-6 bg-white shadow-sm">
+    <div className=" mt-1 pl-24 pr-6 bg-white shadow-sm">
       <ul className="flex space-x-6 text-sm items-center font-semibold text-qpSlate-400">
-        <li className="text-qpNavy">
-          <a className="p-4 text-qpNavy border-t-2 border-qpNavy" href="/">
-            Featured Plans
+        <li className="p-4 text-qpNavy">
+          <a className="text-qpNavy" href="/">
+            Modelable Plans
           </a>
         </li>
         <li className="p-4">

@@ -105,7 +105,6 @@ code {
     @apply underline;
     @apply italic;
     @apply opacity-50;
-    @apply font-medium;
   }
 
   .card {

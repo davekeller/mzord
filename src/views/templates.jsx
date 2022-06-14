@@ -1,4 +1,3 @@
-
 import Sidebar from "../components/sidebar.jsx";
 import SubnavList from "../components/subnavList.jsx";
 import PlanSmall from "../components/planSmall.jsx";
@@ -46,12 +45,27 @@ export default function Templates() {
           <PlanSmall2 />
         </div>
 
-        <h2 className="mt-8 text-center">
-          <a className="font-bold text-qpTwilight" href="#">
-            View More Plans &rarr;
-          </a>
-        </h2>
+        <div className="relative mt-12 p-12 rounded-lg bg-qpNavy text-center overflow-hidden">
+          <h2 className="font-bold text-white text-2xl">
+            New Modelable Comp Plans!
+          </h2>
+          <p className="text-qpSlate-400 text-sm">
+            Click into any of the plans below to forecast quotas and earnings
+          </p>
+        </div>
           
+        {/* plans list */}
+        <div className="mt-12 grid grid-cols-3 gap-8">
+          <PlanSmall />
+          <PlanSmall2 />
+          <PlanSmall3 />
+          <PlanSmall2 />
+          <PlanSmall3 />
+          <PlanSmall />
+          <PlanSmall3 />
+          <PlanSmall />
+          <PlanSmall2 />
+        </div>
 
       </div>
     </div>
