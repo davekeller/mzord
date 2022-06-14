@@ -13,7 +13,7 @@ export default function Templates() {
 
       <div className='pl-28 pr-12 mt-8 mb-24'>
         <div className="flex-between">
-          <h1 className="font-bold text-2xl">Featured Compensation Plan Templates</h1>
+          <h1 className="font-bold text-2xl">Modelable Compensation Plans</h1>
           <select className="input w-56 text-sm text-qpSlate-500 font-semibold" id="plan-sort" name="plan-sort" type="select" >
             <option>Sort by Most Coolest</option>
             <option>Sort by Popular</option>
@@ -25,7 +25,7 @@ export default function Templates() {
           <h2 className="font-bold text-white text-2xl">
             New Modelable Comp Plans!
           </h2>
-          <p className="text-qpSlate-400 text-sm">
+          <p className="text-white opacity-70 text-sm">
             Click into any of the plans below to forecast quotas and earnings
           </p>
           <img src="/assets/blob_right.svg" className="absolute -right-24 -top-8 w-1/4" />
@@ -45,25 +45,25 @@ export default function Templates() {
           <PlanSmall2 />
         </div>
 
-        <div className="relative mt-12 p-12 rounded-lg bg-qpNavy text-center overflow-hidden">
+        <div className="relative mt-12 p-12 rounded-lg bg-gradient-to-tr from-qpPurple-200 to-qpTwilight text-center overflow-hidden">
           <h2 className="font-bold text-white text-2xl">
-            New Modelable Comp Plans!
+            Find Expert Sales Advice Here
           </h2>
-          <p className="text-qpSlate-400 text-sm">
+          <p className="text-white opacity-70 text-sm">
             Click into any of the plans below to forecast quotas and earnings
           </p>
         </div>
           
         {/* plans list */}
         <div className="mt-12 grid grid-cols-3 gap-8">
+          <PlanSmall2 />
+          <PlanSmall />
+          <PlanSmall3 />
           <PlanSmall />
           <PlanSmall2 />
           <PlanSmall3 />
-          <PlanSmall2 />
-          <PlanSmall3 />
           <PlanSmall />
           <PlanSmall3 />
-          <PlanSmall />
           <PlanSmall2 />
         </div>
 
