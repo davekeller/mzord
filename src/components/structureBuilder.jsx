@@ -5,7 +5,7 @@ export default function structureBuilder() {
   return (
     <div>
       <div className='mt-10 px-6 pb-8 card overflow-hidden'>
-        <div className='flex-between -mx-6 px-6 py-4 bg-qpSlate-500 text-white text-sm font-semibold'>
+        <div className='flex-between -mx-6 px-6 py-4 bg-qpTwilight text-white text-sm font-semibold'>
           <p className="">
             Plan Forecast
           </p>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ModelOTE (props) {
   return (
-    <div className="relative grid grid-cols-2 gap-6 px-6 -mx-6 pt-4 pb-8 bg-qpSlate-700 text-white" >
+    <div className="px-6 -mx-6 pt-6 pb-10 relative grid grid-cols-2 gap-6 bg-qpDark text-white" >
       
       {/* OTE On Target Earnings */}
       <div className="relative">
