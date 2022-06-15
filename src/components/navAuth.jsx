@@ -1,7 +1,7 @@
 
 export default function navAuth (props) {
   return (
-    <div className='fixed w-full top-0 px-6 flex justify-between items-center bg-qpNavy shadow-sm z-20'>
+    <div className='fixed w-full top-0 px-6 flex justify-between items-center bg-qpNavy shadow-sm z-50'>
 
       <div className="flex items-center">
         <a href="/">
@@ -14,12 +14,12 @@ export default function navAuth (props) {
         <nav className="pl-14 flex items-center space-x-12">
           <button 
             onClick={() => props.onChangePage('planList')}
-            className="py-4 font-semibold text-white opacity-50 border-t-4 border-transparent hover:opacity-100">
+            className="py-4 font-semibold text-white border-t-4 border-white">
             Discover Comp Plans
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
-            className="py-4 font-semibold text-white border-t-4 border-white">
+            className="py-4 font-semibold text-white opacity-50 border-t-4 border-transparent hover:opacity-100">
               Design Your Plan
           </button>
         </nav>
@@ -53,7 +53,7 @@ export default function navAuth (props) {
               plan list
           </button>
         </div>
-        <button className='text-white text-sm text-center p-2 rounded-full font-bold bg-qpWater hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
+        <button className='text-white text-sm text-center p-2 rounded-full font-bold bg-qpGreen-200 hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
           DK
         </button>
       </div>

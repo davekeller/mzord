@@ -2,13 +2,13 @@
 export default function Cta() {
   return (
     <div className="card p-6 flex border-4 border-transparent hover:border-qpSky cursor-pointer">
-      <div className="p-4 w-32 h-32 bg-qpPurple-100 rounded-lg text-white font-semibold">
+      <div className="p-4 w-28 h-32 bg-qpPurple-100 rounded-lg text-white font-semibold">
         <p className="font-bold">AE:</p>
         <p className="text-sm font-semibold leading-snug">Multiple Rate Plan</p>
       </div>
       <div className="pl-6">
         <h1 className="font-bold text-lg">Multiple Rate Comp Plan</h1>
-        <p className="mt-2 text-sm text-qpSlate-500">
+        <p className="mt-2 text-xs text-qpSlate-500">
           If you get paid a single commission rate on every deal...
         </p>
         <ul className="mt-4 space-y-2 text-sm">
@@ -24,4 +24,3 @@ export default function Cta() {
       </div>
   </div>
 )}
-              
