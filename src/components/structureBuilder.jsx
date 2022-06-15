@@ -56,7 +56,7 @@ export default function structureBuilder() {
         </div>
       </div>
 
-      <div className='mt-12 col-span-full'>
+      <div className='mt-12 mb-40 col-span-full'>
         {/* header */}
         <div className="flex space-x-4 items-center">
           <h2 className="text-lg font-bold">Paths to Quota</h2>

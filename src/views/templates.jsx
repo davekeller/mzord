@@ -14,6 +14,9 @@ export default function Templates() {
           <div className="grid grid-cols-2 gap-12">
             <div>
               <h1 className="font-bold text-white text-3xl">
+                <span>
+                  
+                </span>
                 Explore Comp Plans
               </h1>
               <p className="mt-6 text-white opacity-70 text-xs leading-relaxed">
