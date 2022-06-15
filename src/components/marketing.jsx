@@ -42,8 +42,6 @@ export default function marketing (props) {
           className="mt-4 btn bg-qpGreen-200 border-qpGreen-200">
             yes please &rarr;
         </button>
-        <img src="/assets/blob_right.svg" className="absolute -left-40 -bottom-80 w-1/4 rotate-180" />
-
       </div>
     </div>
   )

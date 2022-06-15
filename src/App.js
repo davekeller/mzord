@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-// import Navbar from './components/navbar.jsx';
-import NavAuth from './components/navAuth.jsx';
+import Navbar from './components/navbar.jsx';
+// import NavAuth from './components/navAuth.jsx';
 import Footer from './components/footer.jsx';
 // import Sidebar from "./components/sidebar.jsx";
 
@@ -33,7 +33,7 @@ export default function App() {
   return (
     <div className='relative py-14 w-screen h-screen bg-qpSlate-100 text-qpDark hover:ease-in-out antialiased'>
       {/* <Navbar onChangePage={setPage}/> */}
-      <NavAuth onChangePage={setPage}/>
+      <Navbar onChangePage={setPage}/>
       {/* <Sidebar /> */}
 
       {pageComponent}
