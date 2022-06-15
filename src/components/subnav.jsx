@@ -1,30 +1,18 @@
 
 export default function Subnav (props) {
   return (
-    <div className="py-4 pl-28 pr-6 flex-between bg-white shadow-sm">
-      <ul className='flex items-center space-x-2 text-sm font-semibold text-qpSlate-400'>
-        <li>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+    <div className="sticky flex-between top-12 py-4 px-6 mt-1 bg-qpTwilight shadow-lg z-30">
+      <a href="#">
+        <div className='flex items-center space-x-2 text-sm font-semibold text-qpSlate-300'>
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M11 17l-5-5m0 0l5-5m-5 5h12" />
           </svg>
-        </li>
-        <li>›</li>
-        <li>Plans</li>
-        <li>›</li>
-        <li>Account Exececutive Plans</li>
-      </ul>
+          <h2 className="text-sm text-qpSlate-300">Account Executive: Single Rate Commission</h2>
+        </div>
+      </a>
+
 
       <div className="flex items-center space-x-8 text-right text-slate-400">
-        <a href="/">
-          <div className="flex items-center space-x-1 hover:opacity-70">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-            </svg>
-            <p className="p font-semibold text-sm">
-              Edit
-            </p>
-          </div>
-        </a>
         <a href="/">
           <div className="flex items-center space-x-1 hover:opacity-70">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
