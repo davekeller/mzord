@@ -49,7 +49,7 @@ export default function Templates() {
           </div>
         </div>
         <img src="/assets/blob_right.svg" className="absolute -right-24 -top-8 w-1/4 z-0" />
-        <img src="/assets/blob_left.svg" className="absolute -left-64 -bottom-12 w-1/4 z-0" />
+        <img src="/assets/blob_left.svg" className="absolute -left-56 top-40 w-1/4 z-0" />
       </div>
 
       <div className='px-12 mt-12 mb-24'>

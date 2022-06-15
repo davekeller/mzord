@@ -30,24 +30,24 @@ export default function navAuth (props) {
               home
           </button>
           <button
-            onClick={() => props.onChangePage('planType')}
-            className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
-              choose
-          </button>
-          <button
             onClick={() => props.onChangePage('templates')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
-              templates
+              marketplace
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
-              plan
+              details
+          </button>
+          <button
+            onClick={() => props.onChangePage('planType')}
+            className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
+              choose
           </button>
           <button 
             onClick={() => props.onChangePage('planList')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
-              plan list
+              planList
           </button>
         </div>
         <button className='text-white text-sm text-center p-2 rounded-full font-bold bg-qpGreen-200 hover:border-teal-500 hover:bg-teal-500 hover:text-white'>
