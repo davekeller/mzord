@@ -3,6 +3,7 @@ import Title from '../components/title.jsx';
 import StructureBuilder from '../components/structureBuilder.jsx';
 import CTA from '../components/cta.jsx';
 import Examples from '../components/examples.jsx';
+import Breakdown from '../components/breakdown.jsx';
 import FAQ from '../components/faq.jsx';
 
 export default function PlanSEO() {
@@ -17,6 +18,7 @@ export default function PlanSEO() {
           </div>
           <div className='col-span-2 space-y-8'>
             <CTA />
+            <Breakdown />
             <Examples />
             <FAQ />
           </div>

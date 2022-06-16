@@ -13,12 +13,14 @@ export default function Templates() {
         <div className="relative z-10 mx-auto">
           <div className="grid grid-cols-2 gap-12">
             <div>
-              <h1 className="font-bold text-white text-3xl">
-                <span>
-                  
-                </span>
-                Explore Compensation Plans
-              </h1>
+              <div className="flex items-center space-x-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                </svg>                
+                <h1 className="font-bold text-white text-3xl">
+                  Explore Compensation Plans
+                </h1>
+              </div>
               <p className="mt-6 text-white opacity-70 text-xs leading-relaxed">
                 Click into any of the plans below to forecast quotas and earnings. Still more glorious dawn awaits extraordinary claims require extraordinary evidence cosmic ocean? Courage of our questions a mote of dust suspended in a sunbeam vastness is bearable only through love the sky calls to us hearts of the stars Sea of Tranquility and billions upon billions. of the stars laws of physics concept of the number one Euclid billions upon billions encyclopaedia galactica? White dwarf Orion's sword invent.
               </p>

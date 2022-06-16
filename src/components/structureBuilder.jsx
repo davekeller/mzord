@@ -9,7 +9,8 @@ export default function structureBuilder() {
           <p className="">
             Plan Forecast
           </p>
-          <ul className="flex font-medium space-x-4 text-xs text-qpSlate-200">
+          <ul className="flex font-medium items-center space-x-4 text-xs text-qpSlate-200">
+            <li className='text-xs font-normal'>Recommended for:</li>
             <li className="flex space-x-1 items-center justify-end">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-qpSlate-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
@@ -24,34 +25,20 @@ export default function structureBuilder() {
                 <p><b>50-100</b> Employees</p>
               </div>
             </li>
-            <li className="flex space-x-1 items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-qpSlate-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-              </svg>
-              <div>
-                <p><b>5,250</b> Users</p>
-              </div>
-            </li>
           </ul>
         </div>
 
 
-        <div className="mt-4">
-          <h2 className='text-qpSlate-500 text-xs font-normal italic'>
-            Drag the slider to forecast your earnings per attainment.
-          </h2>
-          <img className='mt-4 border-2 border-qpSlate-300 rounded-md col-span-3' src="/assets/graph.png" />
+        <div className="mt-8">
+          <img className='border-2 border-qpSlate-300 rounded-md col-span-3' src="/assets/graph.png" />
         </div>
       </div>
 
       <div className='mt-8 space-y-2'>
         <h2 className='font-bold text-lg'>Plan Details</h2>
-        <div className='grid grid-cols-2 gap-8 text-sm text-qpSlate-500'>
+        <div className='text-sm text-qpSlate-500'>
           <p>
-            Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further
-          </p>
-          <p>
-            the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity, transparency and empowerment.
+            The most basic form of sales commissions are Single Rate Commissions, also called Flat or Fixed Rate Commissions. All these terms mean you earn a set, single percentage off the deals you close.
           </p>
         </div>
       </div>
