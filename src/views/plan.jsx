@@ -10,12 +10,14 @@ export default function Plan() {
       <Subnav />
       <div className='mt-12'>
         <div className='grid grid-cols-5 px-8 gap-8'>
-          <div className='col-span-3 space-y-6'>
+          <div className='col-span-full flex-between'>
             <Title />
+            <CTA />
+          </div>
+          <div className='col-span-3 space-y-6'>
             <StructureBuilder />
           </div>
           <div className='col-span-2 space-y-8'>
-            <CTA />
             <Modeler />
           </div>
         </div>

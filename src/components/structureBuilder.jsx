@@ -4,9 +4,9 @@ import Path from './path.jsx';
 export default function structureBuilder() {
   return (
     <div>
-      <div className='mt-10 px-6 pb-8 card overflow-hidden'>
+      <div className='px-6 pb-8 card overflow-hidden'>
         <div className='flex-between -mx-6 px-6 py-4 bg-qpTwilight text-white text-sm font-semibold'>
-          <p className="">
+          <p>
             Plan Forecast
           </p>
           <ul className="flex font-medium items-center space-x-4 text-xs text-qpSlate-200">
@@ -35,7 +35,7 @@ export default function structureBuilder() {
       </div>
 
       <div className='mt-8 space-y-2'>
-        <h2 className='font-bold text-lg'>Plan Details</h2>
+        <h2 className='font-bold text-lg'>Plan Insights</h2>
         <div className='text-sm text-qpSlate-500'>
           <p>
             The most basic form of sales commissions are Single Rate Commissions, also called Flat or Fixed Rate Commissions. All these terms mean you earn a set, single percentage off the deals you close.
