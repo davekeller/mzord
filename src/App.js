@@ -7,6 +7,7 @@ import Footer from './components/footer.jsx';
 
 import Home from './views/home.jsx';
 import Plan from './views/plan.jsx';
+import PlanSEO from './views/planSEO.jsx';
 import PlanType from './views/planType.jsx';
 import Templates from './views/templates.jsx';
 import PlanList from './views/planList.jsx';
@@ -19,6 +20,9 @@ export default function App() {
   let pageComponent = (<Home />);
   if (page === 'plan') {
     pageComponent = (<Plan />);
+  }
+  if (page === 'planSEO') {
+    pageComponent = (<PlanSEO />);
   }
   if (page === 'planType') {
     pageComponent = (<PlanType />);

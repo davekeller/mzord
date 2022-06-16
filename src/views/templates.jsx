@@ -17,7 +17,7 @@ export default function Templates() {
                 <span>
                   
                 </span>
-                Explore Comp Plans
+                Explore Compensation Plans
               </h1>
               <p className="mt-6 text-white opacity-70 text-xs leading-relaxed">
                 Click into any of the plans below to forecast quotas and earnings. Still more glorious dawn awaits extraordinary claims require extraordinary evidence cosmic ocean? Courage of our questions a mote of dust suspended in a sunbeam vastness is bearable only through love the sky calls to us hearts of the stars Sea of Tranquility and billions upon billions. of the stars laws of physics concept of the number one Euclid billions upon billions encyclopaedia galactica? White dwarf Orion's sword invent.
