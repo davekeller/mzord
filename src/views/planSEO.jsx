@@ -14,16 +14,14 @@ export default function PlanSEO() {
         <Title />
         <CTA />
       </div>
-      <div className='mt-12'>
-        <div className='grid grid-cols-5 px-8 gap-8'>
-          <div className='col-span-3 space-y-6'>
-            <StructureBuilder />
-          </div>
-          <div className='col-span-2 space-y-8'>
-            <Breakdown />
-            <Examples />
-            <FAQ />
-          </div>
+      <div className='mt-12 grid grid-cols-5 px-8 gap-8'>
+        <div className='col-span-3 space-y-6'>
+          <StructureBuilder />
+        </div>
+        <div className='col-span-2 space-y-8'>
+          <Breakdown />
+          <Examples />
+          <FAQ />
         </div>
       </div>
 
