@@ -23,8 +23,8 @@ export default function HeroLight (props) {
         </div>
       </div>
 
-      <img src="/assets/blob_left.svg" className="absolute -left-48 -top-24 w-1/4" />
-      <img src="/assets/blob_right.svg" className="absolute -right-40 -top-2 w-1/4" />
+      <img src="/mzord/assets/blob_left.svg" className="absolute -left-48 -top-24 w-1/4" />
+      <img src="/mzord/assets/blob_right.svg" className="absolute -right-40 -top-2 w-1/4" />
     </div>
   )
 }

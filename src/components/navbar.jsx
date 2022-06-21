@@ -5,7 +5,7 @@ export default function navAuth (props) {
 
       <div className="flex items-center">
         <a href="/">
-          <img src="/assets/logos/blue.svg" alt="quotapath logo" />
+          <img src="/mzord/assets/logos/blue.svg" alt="quotapath logo" />
         </a>
       
         <nav className="pl-14 flex items-center space-x-12">

@@ -30,7 +30,7 @@ export default function structureBuilder() {
 
 
         <div className="mt-8">
-          <img className='border-2 border-qpSlate-300 rounded-md col-span-3' src="/assets/graph.png" />
+          <img className='border-2 border-qpSlate-300 rounded-md col-span-3' src="/mzord/assets/graph.png" />
         </div>
       </div>
 

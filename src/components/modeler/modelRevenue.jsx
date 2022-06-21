@@ -24,7 +24,7 @@ export default function ModelRevenue (props) {
                 <option>50-100 Million</option>
                 <option>100+ Million</option>
               </select>
-              <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
+              <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
             </div>
           </div>
 
@@ -41,7 +41,7 @@ export default function ModelRevenue (props) {
             </label>
             <div className="relative">
               <input type="text" className="input pl-9" name="onTarget" placeholder="5x" />
-              <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
+              <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
 
               <button
                 onClick={() => ('/')}
@@ -70,7 +70,7 @@ export default function ModelRevenue (props) {
             <div className="grid grid-cols-4 gap-4 items-center">
               <div className="relative col-span-3">
                 <input type="text" className="input pl-9" name="onTarget" placeholder="700,000" />
-                <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
+                <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
                 <button
                   onClick={() => ('/')}
                   className="btn-zord">
@@ -94,7 +94,7 @@ export default function ModelRevenue (props) {
       <div className="flex-center flex-col">
         <h3 className="font-semibold">Quota:OTE</h3>
         <p className="text-xs font-semibold text-qpSlate-500">This is a healthy ratio 👍️</p>
-        <img className="mt-2" src="/assets/gauge.png" alt="gauge" />
+        <img className="mt-2" src="/mzord/assets/gauge.png" alt="gauge" />
       </div>
     </div>    
   )
