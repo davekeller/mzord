@@ -75,4 +75,5 @@ module.exports = {
       pattern: /(.*?)/,
     },
   ],
+  plugins: [require('@tailwindcss/typography')],
 }

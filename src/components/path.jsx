@@ -3,9 +3,9 @@ export default function Path() {
   return (
     <div className='card'>
       <div>
-        <div className="py-3 px-4 bg-qpSlate-400 rounded-t-md text-white">
+        <div className="py-3.5 px-4 bg-qpTwilight rounded-t-md text-white">
           <p className="font-bold">
-            <span className="font-normal pr-2">Path:</span> 
+            <span className="font-medium pr-2 opacity-70">Path to:</span> 
             Monthly Quota
           </p>
         </div>

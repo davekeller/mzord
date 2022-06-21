@@ -1,11 +1,11 @@
 
 export default function FAQ (props) {
   return (
-    <div className="card p-6">
-      <h2 className="font-semibold text-qpSlate-500">
+    <div className="card p-6 overflow-hidden">
+      <h2 className="-mx-6 px-6 -mt-6 py-4 font-semibold text-white bg-qpSlate-500">
         Frequently Asked Questions
       </h2>
-      <ul className="mt-2 pt-6 border-t-2 border-qpSlate-100 space-y-6">
+      <ul className="pt-6 space-y-6">
         <li>
           <h3 className="font-semibold">
             How do you automate Comp Plan Management?
