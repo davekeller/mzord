@@ -1,7 +1,7 @@
 
 export default function Subnav (props) {
   return (
-    <div className="sticky flex-between top-12 py-4 px-6 mt-1 bg-qpTwilight shadow-lg z-30">
+    <div className="sticky flex-between top-12 py-4 px-6 mt-1 bg-qpNavy shadow-lg z-30">
       <a href="#">
         <div className='flex items-center space-x-2 text-sm font-semibold text-qpSlate-300'>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

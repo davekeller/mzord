@@ -38,7 +38,7 @@ export default function FAQ (props) {
             That's up to you. Accelerators are a double-edged sword. While they can reward overperformance (good) they also add complexity to your compensation plan (bad). Around 80% of compensation plans include some sort of accelerator or decelerator, so you'd be in good company. However, it's up to you if you want to add another layer to your sales commission plans. 
           </p>
         </li>
-        <li className="border-b border-qpSlate-200 pb-6">
+        <li className="pb-6">
           <h3 className="font-semibold">
             What if I have multiple products?
           </h3>

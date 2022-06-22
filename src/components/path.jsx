@@ -26,30 +26,22 @@ export default function Path() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
               <p className="font-bold">
-                ARR - Monthly
-              </p>
-            </li>
-            <li className="flex items-center space-x-2">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-qpWater" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <p className="font-bold">
-                Incentivizes 130% OTE
+                ARR: Monthly
               </p>
             </li>
           </ul>
-          <div className="p-4">
-            <h2 className="text-xs font-bold text-qpSlate-400">Earnings:</h2>
-            <p className="text-sm mt-2">
+          <div className="p-4 pb-6">
+            <h2 className="text-xs font-bold text-qpSlate-400">Earnings Rules:</h2>
+            <p className="text-sm mt-2 leading-relaxed">
               An Account Executive has a monthly quota of <b>$33,000 ARR</b> and earns a <b>10% commission</b> on every deal they close.
             </p>
           </div>
 
           {/* path chart */}
-          <div className="p-4 border-l-2 border-qpSlate-200">
+          <div className="p-4 pb-6 border-l-2 border-qpSlate-200">
             <div>
-              <h2 className="text-xs font-bold text-qpSlate-400">Description:</h2>
-              <p className="text-xs mt-2 text-qpSlate-600">
+              <h2 className="text-xs font-bold text-qpSlate-400">Path Description:</h2>
+              <p className="text-sm mt-2 text-qpSlate-600 leading-relaxed">
                 This plan only has one path: Single-Rate Commission. As dictated, this path will pay the same rate on all deals regardless of quota attainment, product, contract length, etc. 
               </p>
             </div>

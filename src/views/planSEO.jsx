@@ -6,10 +6,12 @@ import Examples from '../components/examples.jsx';
 import Breakdown from '../components/breakdown.jsx';
 import FAQ from '../components/faq.jsx';
 import Insights from '../components/insights.jsx';
+import Testimonial from '../components/testimonial.jsx';
+import Customization from '../components/customization.jsx';
 
 export default function PlanSEO() {
   return (
-    <div className='relative w-screen min-h-screen'>
+    <div className='relative w-screen min-h-screen pb-32'>
       <Subnav />
 
       {/* Title Row */}
@@ -28,6 +30,8 @@ export default function PlanSEO() {
         <div className='col-span-2 space-y-12'>
           <Breakdown />
           <Examples />
+          <Testimonial />
+          <Customization />
         </div>
       </div>
 
