@@ -37,12 +37,12 @@ export default function navAuth (props) {
           <button 
             onClick={() => props.onChangePage('planSEO')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
-              details-seo
+              seo
           </button>
           <button 
             onClick={() => props.onChangePage('plan')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
-              details-modeler
+              modeler
           </button>
           <button
             onClick={() => props.onChangePage('planType')}

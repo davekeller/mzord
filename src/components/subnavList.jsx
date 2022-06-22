@@ -1,4 +1,3 @@
-
 export default function SubnavList (props) {
   return (
     <div className="sticky top-14 pt-1 pr-6 bg-qpTwilight shadow-lg z-30">

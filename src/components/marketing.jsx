@@ -7,7 +7,7 @@ export default function marketing (props) {
           
           <h2 className="font-bold text-sm uppercase text-qpSky">Sales Compensation</h2>
           <h1 className="mt-2 font-semibold text-3xl">
-            Operating lean shouldn’t mean less revenue
+            Operating lean shouldn't mean less revenue
           </h1>
           <p className="mt-6">
             Give your reps transparency into their earnings, design a compensation plan that rewards the team you have, and reap the rewards of higher rep retention, increases in attainment, and record-breaking sales with automated commission tracking.
