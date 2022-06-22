@@ -11,7 +11,6 @@ export default function Subnav (props) {
         </div>
       </a>
 
-
       <div className="flex items-center space-x-8 text-right text-slate-400">
         <a href="/">
           <div className="flex items-center space-x-1 hover:opacity-70">
