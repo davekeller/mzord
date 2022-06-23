@@ -13,7 +13,7 @@ export default function marketing (props) {
             Give your reps transparency into their earnings, design a compensation plan that rewards the team you have, and reap the rewards of higher rep retention, increases in attainment, and record-breaking sales with automated commission tracking.
           </p>
         </div>
-        <img className="absolute -right-1/3 -top-1/3 shadow-2xl overflow-clip" src="/mzord/assets/hero.png" alt="hero img" />
+        <img className="absolute -right-1/3 -top-1/3 shadow-2xl overflow-clip" src="/assets/hero.png" alt="hero img" />
       </div>
 
       <div className="mt-32 py-32 bg-qpTwilight">
@@ -29,7 +29,7 @@ export default function marketing (props) {
             className="px-6 py-2 rounded-md bg-white font-bold text-qpSlate-700 shadow hover:bg-qpSlate-700 hover:text-white">
               Discover Comp Plans &rarr;
           </button>
-          <img className="absolute -left-2/3 -top-6 w-96 shadow-2xl overflow-clip" src="/mzord/assets/hero.png" alt="hero img" />
+          <img className="absolute -left-2/3 -top-6 w-96 shadow-2xl overflow-clip" src="/assets/hero.png" alt="hero img" />
         </div>
       </div>
 

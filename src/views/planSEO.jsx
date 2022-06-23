@@ -25,11 +25,13 @@ export default function PlanSEO() {
         <div className='col-span-3'>
           <Path />
           <Insights />
+          <div className='mb-16'>
+            <Examples />
+          </div>
           <FAQ />
         </div>
         <div className='col-span-2 space-y-12'>
           <Breakdown />
-          <Examples />
           <Testimonial />
           <Customization />
         </div>

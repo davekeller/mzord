@@ -6,7 +6,8 @@ import Modeler from '../components/modeler/modeler.jsx';
 import Insights from '../components/insights.jsx';
 import FAQ from '../components/faq.jsx';
 import Examples from '../components/examples.jsx';
-
+import Testimonial from '../components/testimonial.jsx';
+import Customization from '../components/customization.jsx';
 
 export default function Plan() {
   return (
@@ -17,14 +18,17 @@ export default function Plan() {
         <CTA />
       </div>
       <div className='mt-12 grid grid-cols-5 px-8 gap-12'>
-        <div className='col-span-3'>
+        <div className='col-span-3 space-y-12'>
           <Path />
           <Insights />
+          <Examples />
           <FAQ />
         </div>
         <div className='col-span-2 space-y-8'>
           <Modeler />
-          <Examples />
+          <Testimonial />
+          <Customization />
+
         </div>
       </div>
     </div>

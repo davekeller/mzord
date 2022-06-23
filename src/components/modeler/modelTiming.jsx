@@ -19,7 +19,7 @@ export default function ModelRevenue (props) {
           </label>
           <div className="relative">
             <input type="text" className="input pl-9" name="onTarget" placeholder="28,000" />
-            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
+            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
             <button
               onClick={() => ('/')}
               className="btn-zord">
@@ -46,7 +46,7 @@ export default function ModelRevenue (props) {
           </label>
           <div className="relative">
             <input type="text" className="input pl-9" name="onTarget" placeholder="Quarterly" />
-            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
+            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
           </div>
         </div>
         
@@ -63,7 +63,7 @@ export default function ModelRevenue (props) {
           </label>
           <div className="relative">
             <input type="text" className="input pl-9" name="onTarget" placeholder="Monthly" />
-            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
+            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
           </div>
         </div>
 
@@ -73,7 +73,7 @@ export default function ModelRevenue (props) {
     <div className="flex-center flex-col">
       <h3 className="font-semibold">Deals Per Period</h3>
       <p className="text-xs font-semibold text-qpSlate-500">This is a healthy ratio 👍️</p>
-      <img src="/mzord/assets/gauge.png" alt="guage" />
+      <img src="/assets/gauge.png" alt="guage" />
     </div>
   </div>
   )

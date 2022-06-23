@@ -2,7 +2,7 @@
 export default function Insights() {
   return (
     <div className='my-12 space-y-2 flex items-start space-x-8'>
-      <img className="w-64 mt-2 rounded-md" src="/mzord/assets/imgs/guide.png" alt="placeholder" />
+      <img className="w-64 mt-2 rounded-md" src="/assets/imgs/guide.png" alt="placeholder" />
       <div className="prose">
         <h2 className='font-bold text-lg'>Plan Insights</h2>
         <p className='text-sm text-qpSlate-500'>

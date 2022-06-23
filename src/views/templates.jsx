@@ -32,7 +32,7 @@ export default function Templates() {
             {/* calculator callouts */}
             <div className="grid grid-cols-2 gap-12">
               <div className="rounded-lg shadow-lg overflow-hidden bg-qpNavy">
-                <img src="/mzord/assets/imgs/calculator.png" className="w-full object-cover" alt="doc" />
+                <img src="/assets/imgs/calculator.png" className="w-full object-cover" alt="doc" />
                 <div className="p-6">
                   <h2 className="text-white font-bold">Free Quota:OTE Ratio Calculator &rarr;</h2>
                   <p className="mt-2 text-white opacity-70 text-xs leading-relaxed">
@@ -41,7 +41,7 @@ export default function Templates() {
                 </div>
               </div>
               <div className="rounded-lg shadow-lg overflow-hidden bg-qpNavy">
-                <img src="/mzord/assets/imgs/guide.png" className="w-full object-cover" alt="doc" />
+                <img src="/assets/imgs/guide.png" className="w-full object-cover" alt="doc" />
                 <div className="p-6">
                   <h2 className="text-white font-bold">Free Quota:OTE Ratio Calculator &rarr;</h2>
                   <p className="mt-2 text-white opacity-70 text-xs leading-relaxed">
@@ -53,8 +53,8 @@ export default function Templates() {
             </div>
           </div>
         </div>
-        <img src="/mzord/assets/blob_right.svg" className="absolute -right-24 -top-8 w-1/4 z-0" />
-        <img src="/mzord/assets/blob_left.svg" className="absolute -left-56 top-40 w-1/4 z-0" />
+        <img src="/assets/blob_right.svg" className="absolute -right-24 -top-8 w-1/4 z-0" />
+        <img src="/assets/blob_left.svg" className="absolute -left-56 top-40 w-1/4 z-0" />
       </div>
 
       <div className='px-12 mt-12 mb-24'>

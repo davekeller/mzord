@@ -22,16 +22,16 @@ export default function PlanSEO() {
 
       {/* Plan Content */}
       <div className='mt-12 grid grid-cols-5 px-8 gap-12'>
-        <div className='col-span-3'>
+        <div className='col-span-3 space-y-12'>
           <Path />
+          <Examples />
           <Insights />
-          <FAQ />
+          <Customization />
         </div>
         <div className='col-span-2 space-y-12'>
           <Breakdown />
-          <Examples />
           <Testimonial />
-          <Customization />
+          <FAQ />
         </div>
       </div>
 

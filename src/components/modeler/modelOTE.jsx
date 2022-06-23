@@ -19,7 +19,7 @@ export default function ModelOTE (props) {
 
         <div className="relative">
           <input type="text" className="input text-qpWater border-white pl-9" name="onTarget" placeholder="140,000" />
-          <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
+          <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
           <button
             onClick={() => ('/')}
             className="btn-zord">
@@ -49,7 +49,7 @@ export default function ModelOTE (props) {
 
           <div className="relative">
             <input type="text" className="input text-qpWater border-white pl-9" name="onTarget" placeholder="140,000" />
-            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
+            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
             <button
               onClick={() => ('/')}
               className="btn-zord">
@@ -74,7 +74,7 @@ export default function ModelOTE (props) {
           </label>
           <div className="relative">
             <input type="text" className="input border-white pl-9" name="onTarget" placeholder="84,000" />
-            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
+            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
           </div>
         </div>
 
@@ -100,7 +100,7 @@ export default function ModelOTE (props) {
           </label>
           <div className="relative">
             <input type="text" className="input border-white pl-9" name="onTarget" placeholder="56,000" />
-            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/mzord/assets/icons/dollar.svg" alt="dollar sign" />
+            <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ export default function navAuth (props) {
 
       <div className="flex items-center">
         <a href="/">
-          <img src="/mzord/assets/logos/blue.svg" alt="quotapath logo" />
+          <img src="/assets/logos/blue.svg" alt="quotapath logo" />
         </a>
       
         <nav className="pl-14 flex items-center space-x-12">
@@ -37,10 +37,10 @@ export default function navAuth (props) {
           <button 
             onClick={() => props.onChangePage('planSEO')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
-              seo
+              seo1
           </button>
           <button 
-            onClick={() => props.onChangePage('planSEO')}
+            onClick={() => props.onChangePage('planSEO2')}
             className="font-semibold text-sm text-qpSlate-400 hover:text-qpWater">
               seo2
           </button>
