@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ModelRevenue (props) {
   return (
-    <div className="grid grid-cols-3 gap-8 pt-4">
+    <div className="grid grid-cols-3 gap-8 pt-3">
       <div className="col-span-2">
         <div className="relative pb-8 pt-4 space-y-4">
           <div className="relative">
@@ -18,10 +18,9 @@ export default function ModelRevenue (props) {
             </label>
             <div className="relative">
               <select type="text" className="input pl-9 text-qpWater" name="onTarget" placeholder="20,000">
-                <option>0-5 Million</option>
-                <option>5-25 Million</option>
-                <option>25-50 Million</option>
-                <option>50-100 Million</option>
+                <option>1 - 30 Million</option>
+                <option>30 - 50 Million</option>
+                <option>50 - 100 Million</option>
                 <option>100+ Million</option>
               </select>
               <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
@@ -41,7 +40,9 @@ export default function ModelRevenue (props) {
             </label>
             <div className="relative">
               <input type="text" className="input pl-9" name="onTarget" placeholder="5x" />
-              <img className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" src="/assets/icons/dollar.svg" alt="dollar sign" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute top-2.5 left-1.5 text-qpSlate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
 
               <button
                 onClick={() => ('/')}
